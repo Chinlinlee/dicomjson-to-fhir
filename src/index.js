@@ -90,10 +90,12 @@ class DicomJsonToFhir {
         "O": "other",
         "U": "unknown"
     };
-    constructor(dicomJson, endpointAddressUrl, endpointID = uid(10)) {
+    constructor(dicomJson, endpointAddressUrl, endpointID) {
         this.dicomJson = dicomJson;
         if (!endpointAddressUrl) {
             throw new Error("endpointAddressUrl is required, you must give the base wado-rs url of dicomweb server");
+        } else if (!endpointID) {
+            throw new Error("endpointID is required, you must give the id to your endpoint");
         }
         this.endpointAddressUrl = endpointAddressUrl;
         this.endpointID = endpointID;
