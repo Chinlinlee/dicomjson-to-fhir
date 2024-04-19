@@ -1,15 +1,6 @@
 const { Coding } = require("./Coding");
 const { Reference } = require("./Reference");
-
-class ToJsonParent {
-    constructor() {}
-    toJson() {
-        return Object.getOwnPropertyNames(this).reduce((a, b) => {
-            if (this[b]) a[b] = this[b];
-            return a;
-        }, {});
-    }
-}
+const { ToJsonParent } = require("./ToJsonParent");
 
 class ImagingStudy extends ToJsonParent {
     constructor() {
