@@ -102,10 +102,15 @@ class DicomJsonToFhir {
     }
 
     getFhirJson() {
+        let patient = this.getPatient();
+        let endpoint = this.getEndpoint();
+        let basedOn = this.getBasedOnServiceRequest();
+    
         return {
-            patient: this.getPatient(),
-            endpoint: this.getEndpoint(this.endpointAddressUrl, this.endpointID),
-            imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson).getImagingStudy()
+            patient,
+            endpoint,
+            basedOn,
+            imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson, patient.id, this.endpointID, basedOn.id).getImagingStudy()
         };
     }
 
@@ -186,11 +191,33 @@ class DicomJsonToFhir {
             address: addressUrl
         };
     }
+
+    getBasedOnServiceRequest(patientID) {
+        let requestedProcedureCode = DicomJson.getString(this.dicomJson, "00400275.00321064.00080100") || DicomJson.getString(this.dicomJson, "00400275.00321064.00080104");
+        console.log(requestedProcedureCode);
+        if (!requestedProcedureCode) return null;
+
+        return {
+            id: uid(12),
+            resourceType: "ServiceRequest",
+            status: "completed",
+            intent: "instance-order",
+            subject: {
+                reference: "Patient/" + patientID
+            },
+            code: {
+                text: requestedProcedureCode
+            }
+        }
+    }
 }
 
 class DicomJsonToFhirImagingStudyFactory {
-    constructor(dicomJson) {
+    constructor(dicomJson, patientID, endpointID, basedOnID) {
         this.dicomJson = dicomJson;
+        this.patientID = patientID;
+        this.endpointID = endpointID;
+        this.basedOnID = basedOnID;
     }
 
     getImagingStudy() {
@@ -208,6 +235,7 @@ class DicomJsonToFhirImagingStudyFactory {
 
         this.setStudySubject(study);
         this.setStudyStarted(study);
+        this.setStudyBasedOn(study);
 
         let series = this.getSeries();
         let instance = this.getInstance();
@@ -216,21 +244,9 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setStudySubject(study) {
-        let dicomPatientID = DicomJson.getString(this.dicomJson, "00100020");
-        dicomPatientID = dicomPatientID.replace(/_/gim, "");
-        study.subject.identifier = new Identifier();
-        if (dicomPatientID) {
-            study.subject.reference =
-                `Patient/${dicomPatientID}`;
-            study.subject.type = "Patient";
-            study.subject.identifier.use = "usual";
-            study.subject.identifier.value = dicomPatientID;
-        } else {
-            study.subject.reference = "Patient/unknown";
-            study.subject.type = "Patient";
-            study.subject.identifier.use = "anonymous";
-            study.subject.identifier.value = "unknown";
-        }
+        study.subject.reference =
+            `Patient/${this.patientID}`;
+        study.subject.type = "Patient";
     }
 
     setStudyStarted(study) {
@@ -241,6 +257,14 @@ class DicomJsonToFhirImagingStudyFactory {
         study.numberOfSeries = DicomJson.getString(this.dicomJson, "00201206");
         study.numberOfInstances = DicomJson.getString(this.dicomJson, "00201208");
         study.description = DicomJson.getString(this.dicomJson, "00081030");
+    }
+
+    setStudyBasedOn(study) {
+        if (this.basedOnID) {
+            study.basedOn = {
+                reference: `ServiceRequest/${this.basedOnID}`
+            }
+        }
     }
 
     getSeries() {
