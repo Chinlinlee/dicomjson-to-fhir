@@ -4,6 +4,7 @@ const { Coding } = require("../FHIR/Coding");
 const { sanitizeNestedObject } = require("../utils");
 const { ImagingStudy, ImagingStudySeries, ImagingStudySeriesInstance } = require("../FHIR/ImagingStudy");
 const dayjs = require("dayjs");
+const { SeriesLateralityFactory } = require("./seriesLateralityFactory");
 
 class DicomJsonToFhirImagingStudyFactory {
     /**
@@ -128,6 +129,7 @@ class DicomJsonToFhirImagingStudyFactory {
 
         this.setSeriesStarted(series);
         this.setSeriesPerformer(series);
+        this.setSeriesLaterality(series);
 
         return series;
     }
@@ -145,6 +147,15 @@ class DicomJsonToFhirImagingStudyFactory {
             DicomJson.getString(this.dicomJson, "00081052")
         DicomJson.getString(this.dicomJson, "00081070")
         DicomJson.getString(this.dicomJson, "00081072");
+    }
+
+    setSeriesLaterality(series) {
+        let lateralityFactory = new SeriesLateralityFactory(this.dicomJson);
+        let lateralityCoding = lateralityFactory.make();
+
+        if (lateralityCoding) {
+            series.laterality = lateralityCoding;
+        }
     }
 
     getInstance() {

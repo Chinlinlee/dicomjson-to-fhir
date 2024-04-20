@@ -640,5 +640,11 @@
         "Value": [
             "327 Feeney Trail Apt. 514"
         ]
+    },
+    "00200060": {
+        "vr": "CS",
+        "Value": [
+            "L"
+        ]
     }
 }
