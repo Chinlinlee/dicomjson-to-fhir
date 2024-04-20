@@ -4,4 +4,5 @@ export type DicomJsonToFhirImagingStudyFactoryOptions = {
     basedOnID: string,
     referrerID: string;
     interpreter: string;
+    procedureReferenceID: string;
 };

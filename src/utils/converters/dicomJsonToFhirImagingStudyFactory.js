@@ -34,6 +34,7 @@ class DicomJsonToFhirImagingStudyFactory {
         this.setStudyStarted(study);
         this.setStudyBasedOn(study);
         this.setStudyEndpoint(study);
+        this.setStudyProcedureReference(study);
 
         let series = this.getSeries();
         let instance = this.getInstance();
@@ -65,8 +66,8 @@ class DicomJsonToFhirImagingStudyFactory {
         if (this.opts.basedOnID) {
             study.basedOn = [
                 {
-                reference: `ServiceRequest/${this.opts.basedOnID}`
-            }
+                    reference: `ServiceRequest/${this.opts.basedOnID}`
+                }
             ]
         }
     }
@@ -77,6 +78,14 @@ class DicomJsonToFhirImagingStudyFactory {
                 reference: `Endpoint/${this.opts.endpointID}`
             }
         ]
+    }
+
+    setStudyProcedureReference(study) {
+        if (this.opts.procedureReferenceID) {
+            study.procedureReference = {
+                reference: `Procedure/${this.opts.procedureReferenceID}`
+            }
+        }
     }
 
     getSeries() {

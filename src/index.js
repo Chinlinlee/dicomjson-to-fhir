@@ -6,6 +6,7 @@ const { InterpreterFactory } = require("./utils/converters/interpreterFactory");
 const { setDicomPersonNameToFhirHumanNameMapping } = require("./utils/converters/setDicomPNToFhirHumanNameMapping");
 const { DicomJsonToFhirImagingStudyFactory } = require("./utils/converters/dicomJsonToFhirImagingStudyFactory");
 const { ReferrerFactory } = require("./utils/converters/referrerFactory");
+const { ProcedureReferenceFactory } = require("./utils/converters/procedureReferenceFactory");
 
 /**
  * @typedef DicomPersonName
@@ -41,17 +42,20 @@ class DicomJsonToFhir {
         let basedOn = this.getBasedOnServiceRequest();
         let referrer = this.getReferrer();
         let interpreter = this.getInterpreter();
-    
+        let procedureReference = this.getProcedureReference(patient.id);
+
         return {
             patient,
             endpoint,
             basedOn,
             referrer,
             interpreter,
+            procedureReference,
             imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson, {
                 patientID: patient.id,
                 endpointID: this.endpointID,
-                basedOnID: basedOn.id
+                basedOnID: basedOn?.id,
+                procedureReferenceID: procedureReference?.id
             }).getImagingStudy()
         };
     }
@@ -160,6 +164,16 @@ class DicomJsonToFhir {
     getInterpreter() {
         let interpreterFactory = new InterpreterFactory(this.dicomJson);
         return interpreterFactory.make();
+    }
+
+    /**
+     * 
+     * @param {string} patientID 
+     * @returns 
+     */
+    getProcedureReference(patientID) {
+        let procedureReferenceFactory = new ProcedureReferenceFactory(this.dicomJson, patientID);
+        return procedureReferenceFactory.make();
     }
 }
 
