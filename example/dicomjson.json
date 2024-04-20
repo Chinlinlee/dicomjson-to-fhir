@@ -554,5 +554,71 @@
         "Value": [
             "A10026177757"
         ]
+    },
+    "00080090": {
+        "vr": "PN",
+        "Value": [
+            {
+                "Alphabetic": "john^doe"
+            }
+        ]
+    },
+    "00080096": {
+        "vr": "SQ",
+        "Value": [
+            {
+                "00401102": {
+                    "vr": "ST",
+                    "Value": [
+                        "void"
+                    ]
+                },
+                "00401103": {
+                    "vr": "LO",
+                    "Value": [
+                        "telephone_number"
+                    ]
+                },
+                "00080080": { 
+                    "vr": "LO", 
+                    "Value": [ "Example Hospital" ] 
+                },
+                "00080086": { 
+                    "vr": "LO", 
+                    "Value": [ "heaven" ] 
+                },
+                "00080082": {
+                    "vr": "SQ",
+                    "Value": [
+                        {
+                            "00080100": {
+                                "vr": "CS",
+                                "Value": [
+                                    "123456789"
+                                ]
+                            },
+                            "00080102": {
+                                "vr": "SH",
+                                "Value": [
+                                    "ROOT"
+                                ]
+                            },
+                            "00080103": {
+                                "vr": "SH",
+                                "Value": [
+                                    "1.0.0"
+                                ]
+                            },
+                            "00080104": {
+                                "vr": "LO",
+                                "Value": [
+                                    "Example Institution Code Meaning"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
     }
 }

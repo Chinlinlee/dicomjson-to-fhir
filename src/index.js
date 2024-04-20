@@ -5,6 +5,9 @@ const dayjs = require("dayjs");
 const { ImagingStudy, ImagingStudySeries, ImagingStudySeriesInstance } = require("./utils/FHIR/ImagingStudy");
 const { Identifier } = require("./utils/FHIR/Identifier");
 const { Coding } = require("./utils/FHIR/Coding");
+const { ContactPoint } = require("./utils/FHIR/ContactPoint");
+const { Address } = require("./utils/FHIR/Address");
+const { Practitioner } = require("./utils/FHIR/Practitioner");
 
 /**
  * @typedef DicomPersonName
@@ -23,7 +26,9 @@ const setDicomPersonNameToFhirHumanNameMapping = {
      * @param {HumanName} fhirHumanName 
      */
     familyName: (dicomPersonName, fhirHumanName) => {
-        fhirHumanName.family = dicomPersonName.familyName;
+        if (dicomPersonName?.familyName) {
+            fhirHumanName.family = dicomPersonName.familyName;
+        }
     },
     /**
      * 
@@ -31,10 +36,8 @@ const setDicomPersonNameToFhirHumanNameMapping = {
      * @param {HumanName} fhirHumanName 
      */
     givenName: (dicomPersonName, fhirHumanName) => {
-        if (fhirHumanName?.given) {
-            fhirHumanName.given?.push(dicomPersonName.givenName);
-        } else {
-            fhirHumanName.given = [];
+        if (dicomPersonName?.givenName) {
+            if (!fhirHumanName.given) fhirHumanName.given = [];
             fhirHumanName.given.push(dicomPersonName.givenName);
         }
     },
@@ -44,10 +47,8 @@ const setDicomPersonNameToFhirHumanNameMapping = {
      * @param {HumanName} fhirHumanName 
      */
     middleName: (dicomPersonName, fhirHumanName) => {
-        if (fhirHumanName?.given) {
-            fhirHumanName.given?.push(dicomPersonName.middleName);
-        } else {
-            fhirHumanName.given = [];
+        if (dicomPersonName?.middleName) {
+            if (!fhirHumanName.given) fhirHumanName.given = [];
             fhirHumanName.given.push(dicomPersonName.middleName);
         }
     },
@@ -57,10 +58,8 @@ const setDicomPersonNameToFhirHumanNameMapping = {
      * @param {HumanName} fhirHumanName 
      */
     prefix: (dicomPersonName, fhirHumanName) => {
-        if (fhirHumanName?.prefix) {
-            fhirHumanName.prefix?.push(dicomPersonName.prefix);
-        } else {
-            fhirHumanName.prefix = [];
+        if (dicomPersonName?.prefix) {
+            if (!fhirHumanName.prefix) fhirHumanName.prefix = [];
             fhirHumanName.prefix.push(dicomPersonName.prefix);
         }
     },
@@ -70,10 +69,8 @@ const setDicomPersonNameToFhirHumanNameMapping = {
      * @param {HumanName} fhirHumanName 
      */
     suffix: (dicomPersonName, fhirHumanName) => {
-        if (fhirHumanName?.suffix) {
-            fhirHumanName.suffix?.push(dicomPersonName.suffix);
-        } else {
-            fhirHumanName.suffix = [];
+        if (dicomPersonName?.suffix) {
+            if (!fhirHumanName.suffix) fhirHumanName.suffix = [];
             fhirHumanName.suffix.push(dicomPersonName.suffix);
         }
     }
@@ -105,11 +102,13 @@ class DicomJsonToFhir {
         let patient = this.getPatient();
         let endpoint = this.getEndpoint();
         let basedOn = this.getBasedOnServiceRequest();
+        let referrer = this.getReferrer();
     
         return {
             patient,
             endpoint,
             basedOn,
+            referrer,
             imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson, patient.id, this.endpointID, basedOn.id).getImagingStudy()
         };
     }
@@ -194,7 +193,6 @@ class DicomJsonToFhir {
 
     getBasedOnServiceRequest(patientID) {
         let requestedProcedureCode = DicomJson.getString(this.dicomJson, "00400275.00321064.00080100") || DicomJson.getString(this.dicomJson, "00400275.00321064.00080104");
-        console.log(requestedProcedureCode);
         if (!requestedProcedureCode) return null;
 
         return {
@@ -209,6 +207,86 @@ class DicomJsonToFhir {
                 text: requestedProcedureCode
             }
         }
+    }
+
+    getReferrer() {
+        let nameOfReferringPhysician = DicomJson.getValue(this.dicomJson, "00080090");
+
+        let referringPhysician = new Practitioner();
+        referringPhysician.id = uid(16);
+        if (!nameOfReferringPhysician) {
+            referringPhysician.gender = "unknown";
+            let anonymousName = new HumanName();
+            anonymousName.use = "anonymous";
+            anonymousName.text = "anonymous";
+            referringPhysician.name = [];
+            referringPhysician.name.push(anonymousName);
+            referringPhysician.id = "anonymous";
+            return referringPhysician;
+        }
+
+        let name = new HumanName();
+        name.use = HumanNameUseCode.usual;
+        name.text = nameOfReferringPhysician?.[0]?.Alphabetic;
+
+        let parsedPersonName = DicomJson.parsePersonName(nameOfReferringPhysician?.[0]?.Alphabetic);
+
+        for (let key in parsedPersonName) {
+            setDicomPersonNameToFhirHumanNameMapping[key](parsedPersonName[key], parsedPersonName);
+        }
+        referringPhysician.name = [];
+        referringPhysician.name.push(name.toJson());
+
+        let institutionName = DicomJson.getString(this.dicomJson, "00080096.00080080");
+        let institutionCodeValue = DicomJson.getString(this.dicomJson, "00080096.00080082.00080100");
+        let institutionCodeMeaning = DicomJson.getString(this.dicomJson, "00080096.00080082.00080104");
+
+        if (institutionName) {
+            let fhirInstitutionAddress = new Address();
+            fhirInstitutionAddress.use = "work";
+            fhirInstitutionAddress.text = institutionName;
+            referringPhysician.initAddress();
+            referringPhysician.address.push((fhirInstitutionAddress));
+        } 
+
+        if (institutionCodeValue) {
+            let fhirInstitutionAddress = new Address();
+            fhirInstitutionAddress.use = "work";
+            let institutionCodingSchemeDesignator = DicomJson.getString(this.dicomJson, "00080096.00080082.00080102");
+            let institutionCodingSchemeVersion = DicomJson.getString(this.dicomJson, "00080096.00080082.00080103");
+            fhirInstitutionAddress.text = [institutionCodeValue, institutionCodingSchemeDesignator, institutionCodingSchemeVersion].join(" ");
+            referringPhysician.initAddress();
+            referringPhysician.address.push((fhirInstitutionAddress));
+        } 
+
+        if (institutionCodeMeaning) {
+            let fhirInstitutionAddress = new Address();
+            fhirInstitutionAddress.use = "work";
+            fhirInstitutionAddress.text = institutionCodeMeaning;
+            console.log(institutionCodeMeaning);
+            referringPhysician.initAddress();
+            referringPhysician.address.push(fhirInstitutionAddress);
+        }
+
+        let personAddress = DicomJson.getString(this.dicomJson, "00080096.00401102");
+        if (personAddress) {
+            let fhirAddress = new Address();
+            fhirAddress.use = "work";
+            fhirAddress.type = "physical";
+            fhirAddress.text = personAddress;
+            referringPhysician.initAddress();
+            referringPhysician.address.push(fhirAddress);
+        }
+
+        let telephoneNumber = DicomJson.getString(this.dicomJson, "00080096.00401103");
+        if (telephoneNumber) {
+            let contactPoint = new ContactPoint();
+            contactPoint.value = telephoneNumber;
+            referringPhysician.telecom = [];
+            referringPhysician.telecom.push(contactPoint);
+        }
+
+        return referringPhysician.toJson();
     }
 }
 
