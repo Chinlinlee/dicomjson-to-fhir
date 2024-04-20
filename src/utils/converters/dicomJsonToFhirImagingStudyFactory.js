@@ -62,10 +62,12 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setStudyBasedOn(study) {
-        if (this.basedOnID) {
-            study.basedOn = {
+        if (this.opts.basedOnID) {
+            study.basedOn = [
+                {
                 reference: `ServiceRequest/${this.opts.basedOnID}`
             }
+            ]
         }
     }
 
