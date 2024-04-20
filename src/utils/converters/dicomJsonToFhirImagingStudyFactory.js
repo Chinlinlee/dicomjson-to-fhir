@@ -132,6 +132,7 @@ class DicomJsonToFhirImagingStudyFactory {
         this.setSeriesPerformer(series);
         this.setSeriesLaterality(series);
         this.setSeriesSpecimen(series);
+        this.setSeriesPerformer(series);
 
         return series;
     }
@@ -140,8 +141,8 @@ class DicomJsonToFhirImagingStudyFactory {
         let seriesDate = DicomJson.getString(this.dicomJson, "00200020") || "";
         let seriesTime = DicomJson.getString(this.dicomJson, "00200031") || "";
         let seriesStartedStr = `${seriesDate}${seriesTime}`;
-        
-        series.started = dayjs(seriesStartedStr).isValid() ? dayjs(seriesStartedStr, "YYYYMMDDhhmmss").toISOString(): undefined;
+
+        series.started = dayjs(seriesStartedStr).isValid() ? dayjs(seriesStartedStr, "YYYYMMDDhhmmss").toISOString() : undefined;
     }
 
     setSeriesPerformer(series) {
@@ -165,6 +166,24 @@ class DicomJsonToFhirImagingStudyFactory {
             series.specimen = {
                 reference: `Specimen/${this.opts.seriesSpecimenID}`
             };
+        }
+    }
+
+    setSeriesPerformer(series) {
+        if (this.opts.seriesPerformerActorID) {
+            series.performer = {
+                function: {
+                    coding: [
+                        {
+                            system: "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+                            code: "PRF"
+                        }
+                    ]
+                },
+                actor: {
+                    reference: `Practitioner/${this.opts.seriesPerformerActorID}`
+                }
+            }
         }
     }
 

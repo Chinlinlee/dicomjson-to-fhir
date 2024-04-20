@@ -11,6 +11,7 @@ const { ProcedureCodeFactory } = require("./utils/converters/procedureCodeFactor
 const { LocationFactory } = require("./utils/converters/locationFactory");
 const { ReasonCodeFactory } = require("./utils/converters/reasonCodeFactory");
 const { SeriesSpecimenFactory } = require("./utils/converters/seriesSpecimenFactory");
+const { SeriesPerformerActorFactory } = require("./utils/converters/seriesPerformerActorFactory");
 
 /**
  * @typedef DicomPersonName
@@ -51,6 +52,7 @@ class DicomJsonToFhir {
         let location = this.getLocation();
         let reasonCode = this.getReasonCode();
         let seriesSpecimen = this.getSeriesSpecimen();
+        let seriesPerformerActor = this.getSeriesPerformerActor();
 
         return {
             patient,
@@ -63,6 +65,7 @@ class DicomJsonToFhir {
             location,
             reasonCode,
             seriesSpecimen,
+            seriesPerformerActor,
             imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson, {
                 patientID: patient.id,
                 endpointID: this.endpointID,
@@ -71,7 +74,8 @@ class DicomJsonToFhir {
                 procedureCode,
                 locationID: location?.id,
                 reasonCode,
-                seriesSpecimenID: seriesSpecimen?.id
+                seriesSpecimenID: seriesSpecimen?.id,
+                seriesPerformerActorID: seriesPerformerActor?.id
             }).getImagingStudy()
         };
     }
@@ -210,6 +214,11 @@ class DicomJsonToFhir {
     getSeriesSpecimen() {
         let seriesSpecimenFactory = new SeriesSpecimenFactory(this.dicomJson);
         return seriesSpecimenFactory.make();
+    }
+
+    getSeriesPerformerActor() {
+        let seriesPerformerActorFactory = new SeriesPerformerActorFactory(this.dicomJson);
+        return seriesPerformerActorFactory.make();
     }
 }
 

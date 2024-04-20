@@ -12,4 +12,5 @@ export type DicomJsonToFhirImagingStudyFactoryOptions = {
     locationID: string;
     reasonCode: CodeableConcept[];
     seriesSpecimenID: string;
+    seriesPerformerActorID: string;
 };
