@@ -8,11 +8,12 @@ const dayjs = require("dayjs");
 class DicomJsonToFhirImagingStudyFactory {
     /**
      * 
-     * @param {import("./types/Dicom").DicomJson} dicomJson 
-     * @param {import("./types/DicomJsonToFhirImagingStudyFactory").DicomJsonToFhirImagingStudyFactoryOptions} opts 
+     * @param {import("../../types/Dicom").DicomJson} dicomJson 
+     * @param {import("../../types/DicomJsonToFhirImagingStudyFactory").DicomJsonToFhirImagingStudyFactoryOptions} opts 
      */
     constructor(dicomJson, opts) {
         this.dicomJson = dicomJson;
+        /** @type { import("../../types/DicomJsonToFhirImagingStudyFactory").DicomJsonToFhirImagingStudyFactoryOptions } */
         this.opts = opts;
     }
 
