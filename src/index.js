@@ -8,6 +8,8 @@ const { Coding } = require("./utils/FHIR/Coding");
 const { ContactPoint } = require("./utils/FHIR/ContactPoint");
 const { Address } = require("./utils/FHIR/Address");
 const { Practitioner } = require("./utils/FHIR/Practitioner");
+const { InterpreterFactory } = require("./utils/converters/interpreterFactory");
+const { setDicomPersonNameToFhirHumanNameMapping } = require("./utils/converters/setDicomPNToFhirHumanNameMapping");
 
 /**
  * @typedef DicomPersonName
@@ -18,63 +20,6 @@ const { Practitioner } = require("./utils/FHIR/Practitioner");
  * @property suffix
  * 
  */
-
-const setDicomPersonNameToFhirHumanNameMapping = {
-    /**
-     * 
-     * @param {DicomPersonName} dicomPersonName 
-     * @param {HumanName} fhirHumanName 
-     */
-    familyName: (dicomPersonName, fhirHumanName) => {
-        if (dicomPersonName?.familyName) {
-            fhirHumanName.family = dicomPersonName.familyName;
-        }
-    },
-    /**
-     * 
-     * @param {DicomPersonName} dicomPersonName 
-     * @param {HumanName} fhirHumanName 
-     */
-    givenName: (dicomPersonName, fhirHumanName) => {
-        if (dicomPersonName?.givenName) {
-            if (!fhirHumanName.given) fhirHumanName.given = [];
-            fhirHumanName.given.push(dicomPersonName.givenName);
-        }
-    },
-    /**
-     * 
-     * @param {DicomPersonName} dicomPersonName 
-     * @param {HumanName} fhirHumanName 
-     */
-    middleName: (dicomPersonName, fhirHumanName) => {
-        if (dicomPersonName?.middleName) {
-            if (!fhirHumanName.given) fhirHumanName.given = [];
-            fhirHumanName.given.push(dicomPersonName.middleName);
-        }
-    },
-    /**
-     * 
-     * @param {DicomPersonName} dicomPersonName 
-     * @param {HumanName} fhirHumanName 
-     */
-    prefix: (dicomPersonName, fhirHumanName) => {
-        if (dicomPersonName?.prefix) {
-            if (!fhirHumanName.prefix) fhirHumanName.prefix = [];
-            fhirHumanName.prefix.push(dicomPersonName.prefix);
-        }
-    },
-    /**
-     * 
-     * @param {DicomPersonName} dicomPersonName 
-     * @param {HumanName} fhirHumanName 
-     */
-    suffix: (dicomPersonName, fhirHumanName) => {
-        if (dicomPersonName?.suffix) {
-            if (!fhirHumanName.suffix) fhirHumanName.suffix = [];
-            fhirHumanName.suffix.push(dicomPersonName.suffix);
-        }
-    }
-};
 
 const sanitizeNestedObject = obj => JSON.parse(JSON.stringify(obj), (key, value) => {
     return (value === null || value === "" || (typeof value === 'object' && !Object.keys(value).length) ? undefined : value)
@@ -103,18 +48,20 @@ class DicomJsonToFhir {
         let endpoint = this.getEndpoint();
         let basedOn = this.getBasedOnServiceRequest();
         let referrer = this.getReferrer();
+        let interpreter = this.getInterpreter();
     
         return {
             patient,
             endpoint,
             basedOn,
             referrer,
+            interpreter,
             imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson, patient.id, this.endpointID, basedOn.id).getImagingStudy()
         };
     }
 
     getPatient() {
-        let dicomPatientName = DicomJson.getValue(this.dicomJson, "00100010") || {
+        let dicomPatientName = DicomJson.getValue(this.dicomJson, "00100010")?.[0] || {
             "Alphabetic": "Unknown"
         };
         let dicomPatientGender = DicomJson.getString(this.dicomJson, "00100040") || "U";
@@ -139,7 +86,7 @@ class DicomJsonToFhir {
         let parsedPersonName = DicomJson.parsePersonName(dicomPatientName?.Alphabetic);
 
         for (let key in parsedPersonName) {
-            setDicomPersonNameToFhirHumanNameMapping[key](parsedPersonName[key], humanName);
+            setDicomPersonNameToFhirHumanNameMapping[key](parsedPersonName, humanName);
         }
 
         let patientID = DicomJson.getString(this.dicomJson, "00100020");
@@ -232,7 +179,7 @@ class DicomJsonToFhir {
         let parsedPersonName = DicomJson.parsePersonName(nameOfReferringPhysician?.[0]?.Alphabetic);
 
         for (let key in parsedPersonName) {
-            setDicomPersonNameToFhirHumanNameMapping[key](parsedPersonName[key], parsedPersonName);
+            setDicomPersonNameToFhirHumanNameMapping[key](parsedPersonName, parsedPersonName);
         }
         referringPhysician.name = [];
         referringPhysician.name.push(name.toJson());
@@ -287,6 +234,11 @@ class DicomJsonToFhir {
         }
 
         return referringPhysician.toJson();
+    }
+
+    getInterpreter() {
+        let interpreterFactory = new InterpreterFactory(this.dicomJson);
+        return interpreterFactory.make();
     }
 }
 
