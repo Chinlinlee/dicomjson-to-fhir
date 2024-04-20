@@ -28,8 +28,6 @@ class InterpreterFactory {
             setDicomPersonNameToFhirHumanNameMapping[key](dicomNameOfPhysicianReadingStudy, name);
         }
 
-        console.log(name);
-
         practitionerInterpreter.name = [];
         practitionerInterpreter.name.push(name);
         return practitionerInterpreter;
