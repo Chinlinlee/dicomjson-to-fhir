@@ -11,7 +11,7 @@ class DicomCodeToFhirCodeFactory {
         if (!codeMeaning) return undefined;
         let codes = [];
         let code = new CodeableConcept();
-        code.text=  codeMeaning;
+        code.text = codeMeaning;
         codes.push(code);
 
         let codeValueCode = new CodeableConcept();
@@ -19,21 +19,21 @@ class DicomCodeToFhirCodeFactory {
         let codingSchemeDesignator = DicomJson.getString(this.dicomCode, "00080102") || "";
         let codingSchemeVersion = DicomJson.getString(this.dicomCode, "00080103") || "";
         if (codeValue) {
-            codeValueCode.text = [codeValue, codingSchemeDesignator, codingSchemeVersion].join(" ");
+            codeValueCode.text = [codeValue, codingSchemeDesignator, codingSchemeVersion].filter(v => v).join(" ");
             codes.push(codeValueCode);
         }
 
         let longCodeValueCode = new CodeableConcept();
         let longCodeValue = DicomJson.getString(this.dicomCode, "00080119");
         if (longCodeValue) {
-            longCodeValueCode.text = [longCodeValue, codingSchemeDesignator, codingSchemeVersion].join(" ");
+            longCodeValueCode.text = [longCodeValue, codingSchemeDesignator, codingSchemeVersion].filter(v => v).join(" ");
             codes.push(longCodeValueCode);
         }
 
         let urnCodeValueCode = new CodeableConcept();
         let urnCodeValue = DicomJson.getString(this.dicomCode, "00080120");
         if (urnCodeValue) {
-            urnCodeValueCode.text = [urnCodeValue, codingSchemeDesignator, codingSchemeVersion].join(" ");
+            urnCodeValueCode.text = [urnCodeValue, codingSchemeDesignator, codingSchemeVersion].filter(v => v).join(" ");
             codes.push(urnCodeValue);
         }
 
