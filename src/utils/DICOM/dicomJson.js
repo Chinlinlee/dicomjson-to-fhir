@@ -20,7 +20,7 @@ class DicomJson {
         let seqTags = tag.split(".");
         let path = seqTags.map(v => v + ".Value.0");
         let result = get(data, path);
-        if (result && typeof result === "string") result = result.replace(/[\s\u0000]/gim, "");
+        if (result && typeof result === "string") result = result.replace(/[\u0000]/gim, "");
         return result;
     }
 
