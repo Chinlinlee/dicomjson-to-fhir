@@ -243,11 +243,14 @@ class DicomJsonToFhir {
 }
 
 class DicomJsonToFhirImagingStudyFactory {
-    constructor(dicomJson, patientID, endpointID, basedOnID) {
+    /**
+     * 
+     * @param {import("./types/Dicom").DicomJson} dicomJson 
+     * @param {import("./types/DicomJsonToFhirImagingStudyFactory").DicomJsonToFhirImagingStudyFactoryOptions} opts 
+     */
+    constructor(dicomJson, opts) {
         this.dicomJson = dicomJson;
-        this.patientID = patientID;
-        this.endpointID = endpointID;
-        this.basedOnID = basedOnID;
+        this.opts = opts;
     }
 
     getImagingStudy() {
@@ -275,7 +278,7 @@ class DicomJsonToFhirImagingStudyFactory {
 
     setStudySubject(study) {
         study.subject.reference =
-            `Patient/${this.patientID}`;
+            `Patient/${this.opts.patientID}`;
         study.subject.type = "Patient";
     }
 
@@ -296,7 +299,7 @@ class DicomJsonToFhirImagingStudyFactory {
     setStudyBasedOn(study) {
         if (this.basedOnID) {
             study.basedOn = {
-                reference: `ServiceRequest/${this.basedOnID}`
+                reference: `ServiceRequest/${this.opts.basedOnID}`
             }
         }
     }
