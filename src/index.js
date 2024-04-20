@@ -56,7 +56,11 @@ class DicomJsonToFhir {
             basedOn,
             referrer,
             interpreter,
-            imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson, patient.id, this.endpointID, basedOn.id).getImagingStudy()
+            imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson, {
+                patientID: patient.id,
+                endpointID: this.endpointID,
+                basedOnID: basedOn.id
+            }).getImagingStudy()
         };
     }
 
@@ -210,7 +214,6 @@ class DicomJsonToFhir {
             let fhirInstitutionAddress = new Address();
             fhirInstitutionAddress.use = "work";
             fhirInstitutionAddress.text = institutionCodeMeaning;
-            console.log(institutionCodeMeaning);
             referringPhysician.initAddress();
             referringPhysician.address.push(fhirInstitutionAddress);
         }
@@ -269,6 +272,7 @@ class DicomJsonToFhirImagingStudyFactory {
         this.setStudySubject(study);
         this.setStudyStarted(study);
         this.setStudyBasedOn(study);
+        this.setStudyEndpoint(study);
 
         let series = this.getSeries();
         let instance = this.getInstance();
@@ -302,6 +306,14 @@ class DicomJsonToFhirImagingStudyFactory {
                 reference: `ServiceRequest/${this.opts.basedOnID}`
             }
         }
+    }
+
+    setStudyEndpoint(study) {
+        study.endpoint = [
+            {
+                reference: `Endpoint/${this.opts.endpointID}`
+            }
+        ]
     }
 
     getSeries() {
