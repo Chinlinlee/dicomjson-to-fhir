@@ -9,4 +9,5 @@ export type DicomJsonToFhirImagingStudyFactoryOptions = {
     procedureReferenceID: string;
     procedureCode: CodeableConcept;
     locationID: string;
+    reasonCode: CodeableConcept[];
 };

@@ -9,6 +9,7 @@ const { ReferrerFactory } = require("./utils/converters/referrerFactory");
 const { ProcedureReferenceFactory } = require("./utils/converters/procedureReferenceFactory");
 const { ProcedureCodeFactory } = require("./utils/converters/procedureCodeFactory");
 const { LocationFactory } = require("./utils/converters/locationFactory");
+const { ReasonCodeFactory } = require("./utils/converters/reasonCodeFactory");
 
 /**
  * @typedef DicomPersonName
@@ -47,6 +48,7 @@ class DicomJsonToFhir {
         let procedureReference = this.getProcedureReference(patient.id);
         let procedureCode = this.getProcedureCode();
         let location = this.getLocation();
+        let reasonCode = this.getReasonCode();
 
         return {
             patient,
@@ -57,13 +59,15 @@ class DicomJsonToFhir {
             procedureReference,
             procedureCode,
             location,
+            reasonCode,
             imagingStudy: new DicomJsonToFhirImagingStudyFactory(this.dicomJson, {
                 patientID: patient.id,
                 endpointID: this.endpointID,
                 basedOnID: basedOn?.id,
                 procedureReferenceID: procedureReference?.id,
                 procedureCode,
-                locationID: location?.id
+                locationID: location?.id,
+                reasonCode
             }).getImagingStudy()
         };
     }
@@ -192,6 +196,11 @@ class DicomJsonToFhir {
     getLocation() {
         let locationFactory = new LocationFactory(this.dicomJson);
         return locationFactory.make();
+    }
+
+    getReasonCode() {
+        let reasonCodeFactory = new ReasonCodeFactory(this.dicomJson);
+        return reasonCodeFactory.make();
     }
 }
 

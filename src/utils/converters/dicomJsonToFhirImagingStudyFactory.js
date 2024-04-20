@@ -37,6 +37,7 @@ class DicomJsonToFhirImagingStudyFactory {
         this.setStudyProcedureReference(study);
         this.setStudyProcedureCode(study);
         this.setStudyLocation(study);
+        this.setStudyReasonCode(study);
 
         let series = this.getSeries();
         let instance = this.getInstance();
@@ -101,6 +102,12 @@ class DicomJsonToFhirImagingStudyFactory {
             study.location = {
                 reference: `Location/${this.opts.locationID}`
             }
+        }
+    }
+
+    setStudyReasonCode(study) {
+        if (this.opts.reasonCode) {
+            study.reasonCode = this.opts.reasonCode;
         }
     }
 
