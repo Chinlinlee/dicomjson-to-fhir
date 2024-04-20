@@ -285,7 +285,11 @@ class DicomJsonToFhirImagingStudyFactory {
         let studyStartedStr = `${studyDate}${studyTime}`;
         study.started = dayjs(studyStartedStr, "YYYYMMDDhhmmss").toISOString();
         study.numberOfSeries = DicomJson.getString(this.dicomJson, "00201206");
+        if (study.numberOfSeries) study.numberOfSeries = parseInt(study.numberOfSeries);
+
         study.numberOfInstances = DicomJson.getString(this.dicomJson, "00201208");
+        if (study.numberOfInstances) study.numberOfInstances = parseInt(study.numberOfInstances);
+
         study.description = DicomJson.getString(this.dicomJson, "00081030");
     }
 
@@ -302,9 +306,13 @@ class DicomJsonToFhirImagingStudyFactory {
         let dicomSeriesInstanceUID = DicomJson.getString(this.dicomJson, "0020000E");
         series.uid = dicomSeriesInstanceUID;
         series.number = DicomJson.getString(this.dicomJson, "00200011");
+        if (series.number) series.number = parseInt(series.number);
+
         series.modality.code = DicomJson.getString(this.dicomJson, "00080060");
         series.description = DicomJson.getString(this.dicomJson, "0008103E");
         series.numberOfInstances = DicomJson.getString(this.dicomJson, "00201209");
+        if (series.numberOfInstances) series.numberOfInstances = parseInt(series.numberOfInstances);
+
         series.bodySite = new Coding();
         series.bodySite.display = DicomJson.getString(this.dicomJson, "00180015");
 
@@ -336,6 +344,8 @@ class DicomJsonToFhirImagingStudyFactory {
         instance.sopClass.system = "urn:ietf:rfc:3986";
         instance.sopClass.code = `urn:oid:${DicomJson.getString(this.dicomJson, "00080016")}`;
         instance.number = DicomJson.getString(this.dicomJson, "00200013");
+        if (instance.number) instance.number = parseInt(instance.number);
+
         instance.title = DicomJson.getString(this.dicomJson, "00080008") ||
             DicomJson.getString(this.dicomJson, "00070080") ||
             (DicomJson.getString(this.dicomJson, "0040a043") != undefined
