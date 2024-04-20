@@ -5,6 +5,7 @@ const { sanitizeNestedObject } = require("../utils");
 const { ImagingStudy, ImagingStudySeries, ImagingStudySeriesInstance } = require("../FHIR/ImagingStudy");
 const dayjs = require("dayjs");
 const { SeriesLateralityFactory } = require("./seriesLateralityFactory");
+const { SeriesSpecimenFactory } = require("./seriesSpecimenFactory");
 
 class DicomJsonToFhirImagingStudyFactory {
     /**
@@ -130,6 +131,7 @@ class DicomJsonToFhirImagingStudyFactory {
         this.setSeriesStarted(series);
         this.setSeriesPerformer(series);
         this.setSeriesLaterality(series);
+        this.setSeriesSpecimen(series);
 
         return series;
     }
@@ -155,6 +157,14 @@ class DicomJsonToFhirImagingStudyFactory {
 
         if (lateralityCoding) {
             series.laterality = lateralityCoding;
+        }
+    }
+
+    setSeriesSpecimen(series) {
+        if (this.opts.seriesSpecimenID) {
+            series.specimen = {
+                reference: `Specimen/${this.opts.seriesSpecimenID}`
+            };
         }
     }
 

@@ -646,5 +646,18 @@
         "Value": [
             "L"
         ]
+    },
+    "00400560": {
+        "vr": "SQ",
+        "Value": [
+            {
+                "00400551": {
+                    "vr": "LO",
+                    "Value": [
+                        "Specimen Identifier"
+                    ]
+                }
+            }
+        ]
     }
 }

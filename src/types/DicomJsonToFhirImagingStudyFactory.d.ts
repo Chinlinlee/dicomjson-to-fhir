@@ -1,4 +1,5 @@
 import { CodeableConcept } from "../utils/FHIR/CodeableConcept";
+import { Specimen } from "../utils/FHIR/Specimen";
 
 export type DicomJsonToFhirImagingStudyFactoryOptions = {
     patientID: string,
@@ -10,4 +11,5 @@ export type DicomJsonToFhirImagingStudyFactoryOptions = {
     procedureCode: CodeableConcept;
     locationID: string;
     reasonCode: CodeableConcept[];
+    seriesSpecimenID: string;
 };
