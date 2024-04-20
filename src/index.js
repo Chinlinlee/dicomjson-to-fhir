@@ -2,14 +2,10 @@ const { HumanName, HumanNameUseCode } = require("./utils/FHIR/HumanName");
 const { DicomJson } = require("./utils/DICOM/dicomJson");
 const { uid } = require("uid/secure");
 const dayjs = require("dayjs");
-const { Identifier } = require("./utils/FHIR/Identifier");
-const { Coding } = require("./utils/FHIR/Coding");
-const { ContactPoint } = require("./utils/FHIR/ContactPoint");
-const { Address } = require("./utils/FHIR/Address");
-const { Practitioner } = require("./utils/FHIR/Practitioner");
 const { InterpreterFactory } = require("./utils/converters/interpreterFactory");
 const { setDicomPersonNameToFhirHumanNameMapping } = require("./utils/converters/setDicomPNToFhirHumanNameMapping");
 const { DicomJsonToFhirImagingStudyFactory } = require("./utils/converters/dicomJsonToFhirImagingStudyFactory");
+const { ReferrerFactory } = require("./utils/converters/referrerFactory");
 
 /**
  * @typedef DicomPersonName
@@ -157,82 +153,8 @@ class DicomJsonToFhir {
     }
 
     getReferrer() {
-        let nameOfReferringPhysician = DicomJson.getValue(this.dicomJson, "00080090");
-
-        let referringPhysician = new Practitioner();
-        referringPhysician.id = uid(16);
-        if (!nameOfReferringPhysician) {
-            referringPhysician.gender = "unknown";
-            let anonymousName = new HumanName();
-            anonymousName.use = "anonymous";
-            anonymousName.text = "anonymous";
-            referringPhysician.name = [];
-            referringPhysician.name.push(anonymousName);
-            referringPhysician.id = "anonymous";
-            return referringPhysician;
-        }
-
-        let name = new HumanName();
-        name.use = HumanNameUseCode.usual;
-        name.text = nameOfReferringPhysician?.[0]?.Alphabetic;
-
-        let parsedPersonName = DicomJson.parsePersonName(nameOfReferringPhysician?.[0]?.Alphabetic);
-
-        for (let key in parsedPersonName) {
-            setDicomPersonNameToFhirHumanNameMapping[key](parsedPersonName, parsedPersonName);
-        }
-        referringPhysician.name = [];
-        referringPhysician.name.push(name.toJson());
-
-        let institutionName = DicomJson.getString(this.dicomJson, "00080096.00080080");
-        let institutionCodeValue = DicomJson.getString(this.dicomJson, "00080096.00080082.00080100");
-        let institutionCodeMeaning = DicomJson.getString(this.dicomJson, "00080096.00080082.00080104");
-
-        if (institutionName) {
-            let fhirInstitutionAddress = new Address();
-            fhirInstitutionAddress.use = "work";
-            fhirInstitutionAddress.text = institutionName;
-            referringPhysician.initAddress();
-            referringPhysician.address.push((fhirInstitutionAddress));
-        } 
-
-        if (institutionCodeValue) {
-            let fhirInstitutionAddress = new Address();
-            fhirInstitutionAddress.use = "work";
-            let institutionCodingSchemeDesignator = DicomJson.getString(this.dicomJson, "00080096.00080082.00080102");
-            let institutionCodingSchemeVersion = DicomJson.getString(this.dicomJson, "00080096.00080082.00080103");
-            fhirInstitutionAddress.text = [institutionCodeValue, institutionCodingSchemeDesignator, institutionCodingSchemeVersion].join(" ");
-            referringPhysician.initAddress();
-            referringPhysician.address.push((fhirInstitutionAddress));
-        } 
-
-        if (institutionCodeMeaning) {
-            let fhirInstitutionAddress = new Address();
-            fhirInstitutionAddress.use = "work";
-            fhirInstitutionAddress.text = institutionCodeMeaning;
-            referringPhysician.initAddress();
-            referringPhysician.address.push(fhirInstitutionAddress);
-        }
-
-        let personAddress = DicomJson.getString(this.dicomJson, "00080096.00401102");
-        if (personAddress) {
-            let fhirAddress = new Address();
-            fhirAddress.use = "work";
-            fhirAddress.type = "physical";
-            fhirAddress.text = personAddress;
-            referringPhysician.initAddress();
-            referringPhysician.address.push(fhirAddress);
-        }
-
-        let telephoneNumber = DicomJson.getString(this.dicomJson, "00080096.00401103");
-        if (telephoneNumber) {
-            let contactPoint = new ContactPoint();
-            contactPoint.value = telephoneNumber;
-            referringPhysician.telecom = [];
-            referringPhysician.telecom.push(contactPoint);
-        }
-
-        return referringPhysician.toJson();
+        let referrerFactory = new ReferrerFactory(this.dicomJson);
+        return referrerFactory.make();
     }
 
     getInterpreter() {
