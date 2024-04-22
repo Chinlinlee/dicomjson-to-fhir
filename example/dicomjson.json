@@ -660,11 +660,36 @@
             }
         ]
     },
-    "00081050": {
-        "vr": "PN",
+
+    "00081052": {
+        "vr": "SQ",
         "Value": [
             {
-                "Alphabetic": "john^doe^mr"
+                "00401101": {
+                    "vr": "SQ",
+                    "Value": [
+                        {
+                            "00080102": {
+                                "vr": "SH",
+                                "Value": [
+                                    "99LOCAL"
+                                ]
+                            },
+                            "00080103": {
+                                "vr": "SH",
+                                "Value": [
+                                    "1.0.0"
+                                ]
+                            },
+                            "00080104": {
+                                "vr": "LO",
+                                "Value": [
+                                    "Example Person Identification Code Meaning"
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ]
     }

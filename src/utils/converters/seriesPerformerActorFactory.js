@@ -70,18 +70,18 @@ class SeriesPerformerActorFactory {
             identifiers.push(identifier);
         }
 
-        let codingSchemeDesignator = DicomJson.getString(identification, "00080102");
-        let codingSchemeVersion = DicomJson.getString(identification, "00080103");
-        let codeMeaning = DicomJson.getString(identification, "00080104");
+        let codingSchemeDesignator = DicomJson.getString(identification, "00401101.00080102");
+        let codingSchemeVersion = DicomJson.getString(identification, "00401101.00080103");
+        let codeMeaning = DicomJson.getString(identification, "00401101.00080104");
         this.#addDicomIdentificationByCodeSeqItem(codeMeaning, codingSchemeDesignator, codingSchemeVersion, identifiers);
 
-        let codeValue = DicomJson.getString(identification, "00080100");
+        let codeValue = DicomJson.getString(identification, "00401101.00080100");
         this.#addDicomIdentificationByCodeSeqItem(codeValue, codingSchemeDesignator, codingSchemeVersion, identifiers);
 
-        let longValue = DicomJson.getString(identification, "00080119");
+        let longValue = DicomJson.getString(identification, "00401101.00080119");
         this.#addDicomIdentificationByCodeSeqItem(longValue, codingSchemeDesignator, codingSchemeVersion, identifiers);
 
-        let urnCodeValue = DicomJson.getString(identification, "00080120");
+        let urnCodeValue = DicomJson.getString(identification, "00401101.00080120");
         this.#addDicomIdentificationByCodeSeqItem(urnCodeValue, codingSchemeDesignator, codingSchemeVersion, identifiers);
 
         return identifiers;
