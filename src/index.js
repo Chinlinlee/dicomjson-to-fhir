@@ -24,6 +24,18 @@ const { SeriesPerformerActorFactory } = require("./utils/converters/seriesPerfor
  */
 
 class DicomJsonToFhir {
+    static IMAGING_STUDY_SELECTION_COLUMNS = [
+        "basedOn",
+        "referrer",
+        "interpreter",
+        "procedureReference",
+        "procedureCode",
+        "location",
+        "reasonCode",
+        "seriesSpecimen",
+        "seriesPerformerActor"
+    ];
+
     static GENDER_MAPPING = {
         "M": "male",
         "F": "female",
@@ -41,7 +53,16 @@ class DicomJsonToFhir {
         this.endpointID = endpointID;
     }
 
-    getFhirJson() {
+    /**
+     * 
+     * @param {(typeof DicomJsonToFhir.IMAGING_STUDY_SELECTION_COLUMNS[number])[]} selection 
+     * @returns 
+     */
+    getFhirJson(selection=[]) {
+        if (selection.some(v=> DicomJsonToFhir.IMAGING_STUDY_SELECTION_COLUMNS.indexOf(v)) < 0) {
+            throw new Error("selection must be one of " + DicomJsonToFhir.IMAGING_STUDY_SELECTION_COLUMNS.join(", "));
+        }
+
         let patient = this.getPatient();
         let endpoint = this.getEndpoint();
         let basedOn = this.getBasedOnServiceRequest();
@@ -54,7 +75,7 @@ class DicomJsonToFhir {
         let seriesSpecimen = this.getSeriesSpecimen();
         let seriesPerformerActor = this.getSeriesPerformerActor();
 
-        return {
+        let result = {
             patient,
             endpoint,
             basedOn,
@@ -70,14 +91,28 @@ class DicomJsonToFhir {
                 patientID: patient.id,
                 endpointID: this.endpointID,
                 basedOnID: basedOn?.id,
+                referrerID: referrer.id,
                 procedureReferenceID: procedureReference?.id,
                 procedureCode,
                 locationID: location?.id,
                 reasonCode,
                 seriesSpecimenID: seriesSpecimen?.id,
-                seriesPerformerActorID: seriesPerformerActor?.id
+                seriesPerformerActorID: seriesPerformerActor?.id,
+                selection
             }).getImagingStudy()
         };
+
+        let baseResult = {
+            patient: patient,
+            endpoint: result.endpoint,
+            imagingStudy: result.imagingStudy
+        };
+
+        for(let field of selection) {
+            baseResult[field] = result[field];
+        }
+
+        return baseResult;
     }
 
     getPatient() {

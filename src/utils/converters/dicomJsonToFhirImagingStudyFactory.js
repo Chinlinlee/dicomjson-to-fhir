@@ -17,6 +17,10 @@ class DicomJsonToFhirImagingStudyFactory {
         this.dicomJson = dicomJson;
         /** @type { import("../../types/DicomJsonToFhirImagingStudyFactory").DicomJsonToFhirImagingStudyFactoryOptions } */
         this.opts = opts;
+
+        if (!this.opts?.selection) {
+            this.opts.selection = [];
+        }
     }
 
     getImagingStudy() {
@@ -35,6 +39,7 @@ class DicomJsonToFhirImagingStudyFactory {
         this.setStudySubject(study);
         this.setStudyStarted(study);
         this.setStudyBasedOn(study);
+        this.setStudyReferrer(study);
         this.setStudyEndpoint(study);
         this.setStudyProcedureReference(study);
         this.setStudyProcedureCode(study);
@@ -68,12 +73,20 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setStudyBasedOn(study) {
-        if (this.opts.basedOnID) {
+        if (this.opts.basedOnID && this.opts.selection.indexOf("basedOn") >= 0) {
             study.basedOn = [
                 {
                     reference: `ServiceRequest/${this.opts.basedOnID}`
                 }
             ]
+        }
+    }
+
+    setStudyReferrer(study) {
+        if (this.opts.referrerID && this.opts.selection.indexOf("referrer") >= 0) {
+            study.referrer = {
+                reference: `Practitioner/${this.opts.referrerID}`
+            };
         }
     }
 
@@ -86,7 +99,7 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setStudyProcedureReference(study) {
-        if (this.opts.procedureReferenceID) {
+        if (this.opts.procedureReferenceID && this.opts.selection.indexOf("procedureReference") >= 0) {
             study.procedureReference = {
                 reference: `Procedure/${this.opts.procedureReferenceID}`
             }
@@ -94,13 +107,13 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setStudyProcedureCode(study) {
-        if (this.opts.procedureCode) {
+        if (this.opts.procedureCode && this.opts.selection.indexOf("procedureCode") >= 0) {
             study.procedureCode = this.opts.procedureCode;
         }
     }
 
     setStudyLocation(study) {
-        if (this.opts.locationID) {
+        if (this.opts.locationID  && this.opts.selection.indexOf("location") >= 0) {
             study.location = {
                 reference: `Location/${this.opts.locationID}`
             }
@@ -108,7 +121,7 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setStudyReasonCode(study) {
-        if (this.opts.reasonCode) {
+        if (this.opts.reasonCode && this.opts.selection.indexOf("reasonCode") >= 0) {
             study.reasonCode = this.opts.reasonCode;
         }
     }
@@ -145,13 +158,6 @@ class DicomJsonToFhirImagingStudyFactory {
         series.started = dayjs(seriesStartedStr).isValid() ? dayjs(seriesStartedStr, "YYYYMMDDhhmmss").toISOString() : undefined;
     }
 
-    setSeriesPerformer(series) {
-        series.performer = DicomJson.getString(this.dicomJson, "00081050") ||
-            DicomJson.getString(this.dicomJson, "00081052")
-        DicomJson.getString(this.dicomJson, "00081070")
-        DicomJson.getString(this.dicomJson, "00081072");
-    }
-
     setSeriesLaterality(series) {
         let lateralityFactory = new SeriesLateralityFactory(this.dicomJson);
         let lateralityCoding = lateralityFactory.make();
@@ -162,7 +168,7 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setSeriesSpecimen(series) {
-        if (this.opts.seriesSpecimenID) {
+        if (this.opts.seriesSpecimenID && this.opts.selection.indexOf("seriesSpecimen") >= 0) {
             series.specimen = {
                 reference: `Specimen/${this.opts.seriesSpecimenID}`
             };
@@ -170,7 +176,7 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setSeriesPerformer(series) {
-        if (this.opts.seriesPerformerActorID) {
+        if (this.opts.seriesPerformerActorID && this.opts.selection.indexOf("seriesPerformerActor") >= 0) {
             series.performer = {
                 function: {
                     coding: [
@@ -196,6 +202,9 @@ class DicomJsonToFhirImagingStudyFactory {
         instance.number = DicomJson.getString(this.dicomJson, "00200013");
         if (instance.number) instance.number = parseInt(instance.number);
 
+        // TODO
+        // The mapping tag is incorrect
+        // and either extract method 
         instance.title = DicomJson.getString(this.dicomJson, "00080008") ||
             DicomJson.getString(this.dicomJson, "00070080") ||
             (DicomJson.getString(this.dicomJson, "0040a043") != undefined
