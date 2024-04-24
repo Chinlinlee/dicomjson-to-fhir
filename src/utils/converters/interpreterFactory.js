@@ -14,11 +14,7 @@ class InterpreterFactory {
         practitionerInterpreter.id = uid(16);
         let name = new HumanName();
         if (this.#isNull()) {
-            name.text = "anonymous";
-            name.use = "anonymous";
-            practitionerInterpreter.name = [];
-            practitionerInterpreter.name.push(name);
-            return practitionerInterpreter;
+            return undefined;
         }
 
         name.use = "usual";
