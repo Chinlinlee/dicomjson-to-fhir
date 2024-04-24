@@ -63,6 +63,10 @@ describe("Parse DICOM JSON to FHIR", () => {
         assert.ok(baseFhirJson.imagingStudy?.procedureCode);
     });
 
+    it("Should have reasonCode in study", () => {
+        assert.ok(baseFhirJson.imagingStudy?.reasonCode);
+    });
+
     let studyRefFields = [
         {
             field: "basedOn",
