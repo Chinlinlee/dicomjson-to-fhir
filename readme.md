@@ -562,7 +562,21 @@ let data = fs.readFileSync(
 
 let dicomJsonToFhir = new DicomJsonToFhir(JSON.parse(data), "http://aaExample.com/wado-rs", "my-endpoint");
 
+// Only obtain Endpoint, Patient and ImagingStudy
 let fhirJson = dicomJsonToFhir.getFhirJson();
+
+// Add reference fields you need with array to arguments
+let fhirJsonFull = dicomJsonToFhir.getFhirJson([
+    "basedOn",
+    "referrer",
+    "interpreter",
+    "procedureReference",
+    "procedureCode",
+    "location",
+    "reasonCode",
+    "seriesSpecimen",
+    "seriesPerformerActor"
+]);
 
 console.log(JSON.stringify(fhirJson, null, 2));
 ```
