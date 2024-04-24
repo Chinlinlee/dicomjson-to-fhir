@@ -17,7 +17,7 @@ export type DicomJsonToFhirImagingStudyFactoryOptions = {
     endpointID: string;
     basedOnID: string;
     referrerID: string;
-    interpreter: string;
+    interpreterID: string;
     procedureReferenceID: string;
     procedureCode: CodeableConcept;
     locationID: string;

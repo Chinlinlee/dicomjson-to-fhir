@@ -39,6 +39,7 @@ class DicomJsonToFhirImagingStudyFactory {
         this.setStudySubject(study);
         this.setStudyStarted(study);
         this.setStudyBasedOn(study);
+        this.setStudyInterpreter(study);
         this.setStudyReferrer(study);
         this.setStudyEndpoint(study);
         this.setStudyProcedureReference(study);
@@ -86,6 +87,14 @@ class DicomJsonToFhirImagingStudyFactory {
         if (this.opts.referrerID && this.opts.selection.indexOf("referrer") >= 0) {
             study.referrer = {
                 reference: `Practitioner/${this.opts.referrerID}`
+            };
+        }
+    }
+
+    setStudyInterpreter(study) {
+        if (this.opts.interpreterID && this.opts.selection.indexOf("interpreter") >= 0) {
+            study.interpreter = {
+                reference: `Practitioner/${this.opts.interpreterID}`
             };
         }
     }

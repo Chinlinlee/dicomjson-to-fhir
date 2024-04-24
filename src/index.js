@@ -92,6 +92,7 @@ class DicomJsonToFhir {
                 endpointID: this.endpointID,
                 basedOnID: basedOn?.id,
                 referrerID: referrer?.id,
+                interpreterID: interpreter?.id,
                 procedureReferenceID: procedureReference?.id,
                 procedureCode,
                 locationID: location?.id,
