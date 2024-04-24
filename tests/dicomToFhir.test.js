@@ -161,5 +161,12 @@ describe("Parse DICOM JSON to FHIR", () => {
     });
     // #endregion
 
+
+    // #region endpoint
+
+    it("Should have address with correct value (http://aaExample.com/wado-rs) in endpoint", () => {
+        assert.equal(baseFhirJson.endpoint.address, "http://aaExample.com/wado-rs");
+    });
+    // #endregion
 });
 

@@ -64,7 +64,7 @@ class DicomJsonToFhir {
         }
 
         let patient = this.getPatient();
-        let endpoint = this.getEndpoint();
+        let endpoint = this.getEndpoint(this.endpointAddressUrl, this.endpointID);
         let basedOn = this.getBasedOnServiceRequest();
         let referrer = this.getReferrer();
         let interpreter = this.getInterpreter();
