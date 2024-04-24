@@ -25,5 +25,14 @@ describe("Parse DICOM JSON to FHIR", () => {
         assert.ok(!fhirJson?.referrer);
         assert.ok(!fhirJson.imagingStudy?.referrer);
     });
+
+    it("Should not have referrer that source not possess it", () => {
+        let clonedTestData = structuredClone(testData);
+        delete clonedTestData["00080090"];
+        delete clonedTestData["00080096"];
+        let dicomJsonToFhirForWithoutReferrer = new DicomJsonToFhir(clonedTestData, "http://aaExample.com/wado-rs", "my-endpoint");
+        let fhirJson = dicomJsonToFhirForWithoutReferrer.getFhirJson(["referrer"]);
+        assert.ok(!fhirJson?.referrer);
+    });
 });
 

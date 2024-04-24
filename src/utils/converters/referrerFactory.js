@@ -17,14 +17,7 @@ class ReferrerFactory {
         let referringPhysician = new Practitioner();
         referringPhysician.id = uid(16);
         if (!nameOfReferringPhysician) {
-            referringPhysician.gender = "unknown";
-            let anonymousName = new HumanName();
-            anonymousName.use = "anonymous";
-            anonymousName.text = "anonymous";
-            referringPhysician.name = [];
-            referringPhysician.name.push(anonymousName);
-            referringPhysician.id = "anonymous";
-            return referringPhysician;
+            return undefined;
         }
 
         let name = new HumanName();
