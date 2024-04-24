@@ -116,7 +116,7 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setStudyProcedureCode(study) {
-        if (this.opts.procedureCode && this.opts.selection.indexOf("procedureCode") >= 0) {
+        if (this.opts.procedureCode) {
             study.procedureCode = this.opts.procedureCode;
         }
     }
@@ -130,7 +130,7 @@ class DicomJsonToFhirImagingStudyFactory {
     }
 
     setStudyReasonCode(study) {
-        if (this.opts.reasonCode && this.opts.selection.indexOf("reasonCode") >= 0) {
+        if (this.opts.reasonCode) {
             study.reasonCode = this.opts.reasonCode;
         }
     }

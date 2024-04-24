@@ -6,9 +6,7 @@ type Selection =
     | "referrer"
     | "interpreter"
     | "procedureReference"
-    | "procedureCode"
     | "location"
-    | "reasonCode"
     | "seriesSpecimen"
     | "seriesPerformerActor";
 
