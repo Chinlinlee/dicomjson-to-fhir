@@ -5,6 +5,16 @@ const { testData } = require("./data");
 
 describe("Parse DICOM JSON to FHIR", () => {
     let dicomJsonToFhir = new DicomJsonToFhir(testData, "http://aaExample.com/wado-rs", "my-endpoint");
+    let baseFhirJson = dicomJsonToFhir.getFhirJson();
+
+    it("Should have modality in series", () => {
+        assert.equal(baseFhirJson?.imagingStudy?.series[0].modality.code, "CT");
+    });
+
+    it("Should have started in study", () => {
+       assert.ok(baseFhirJson?.imagingStudy?.started.includes("2006-10-12T09:02:58")); 
+    });
+
     it("Should raise error with invalid selection", () => {
         try {
             let fhirJson = dicomJsonToFhir.getFhirJson("123");

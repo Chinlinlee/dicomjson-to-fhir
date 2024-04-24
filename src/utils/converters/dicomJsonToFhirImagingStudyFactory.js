@@ -62,7 +62,7 @@ class DicomJsonToFhirImagingStudyFactory {
         let studyDate = DicomJson.getString(this.dicomJson, "00080020") || "";
         let studyTime = DicomJson.getString(this.dicomJson, "00080030") || "";
         let studyStartedStr = `${studyDate}${studyTime}`;
-        study.started = dayjs(studyStartedStr, "YYYYMMDDhhmmss").toISOString();
+        study.started = dayjs(studyStartedStr, "YYYYMMDDhhmmss").format();
         study.numberOfSeries = DicomJson.getString(this.dicomJson, "00201206");
         if (study.numberOfSeries) study.numberOfSeries = parseInt(study.numberOfSeries);
 
