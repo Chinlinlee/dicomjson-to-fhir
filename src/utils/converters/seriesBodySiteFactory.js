@@ -1,6 +1,12 @@
+const { resolve } = require("path");
 const { DicomJson } = require("../DICOM/dicomJson");
 const { Coding } = require("../FHIR/Coding");
-const BODY_SITE_CODE = require("../DICOM/bodySite-code.json");
+const BODY_SITE_CODE = require(
+    resolve(
+        __dirname,
+        "../DICOM/bodySite-code.json"
+    )
+);
 
 class SeriesBodySiteFactory {
     constructor(dicomJson) {
