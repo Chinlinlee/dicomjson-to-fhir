@@ -1,0 +1,3584 @@
+ [
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "818981001",
+    "CodeMeaning": "Abdomen",
+    "BodyPartExamined": "ABDOMEN",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "818982008",
+    "CodeMeaning": "Abdomen and Pelvis",
+    "BodyPartExamined": "ABDOMENPELVIS",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "7832008",
+    "CodeMeaning": "Abdominal aorta",
+    "BodyPartExamined": "ABDOMINALAORTA",
+    "SNOMED-RT ID (Retired)": "T-42500",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "85856004",
+    "CodeMeaning": "Acromioclavicular joint",
+    "BodyPartExamined": "ACJOINT",
+    "SNOMED-RT ID (Retired)": "T-15420",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "23451007",
+    "CodeMeaning": "Adrenal gland",
+    "BodyPartExamined": "ADRENAL",
+    "SNOMED-RT ID (Retired)": "T-B3000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "77012006",
+    "CodeMeaning": "Amniotic fluid",
+    "BodyPartExamined": "AMNIOTICFLUID",
+    "SNOMED-RT ID (Retired)": "T-F1320",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "70258002",
+    "CodeMeaning": "Ankle joint",
+    "BodyPartExamined": "ANKLE",
+    "SNOMED-RT ID (Retired)": "T-15750",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128585006",
+    "CodeMeaning": "Anomalous pulmonary vein",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-48503",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128553008",
+    "CodeMeaning": "Antecubital vein",
+    "BodyPartExamined": "ANTECUBITALV",
+    "SNOMED-RT ID (Retired)": "T-49215",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "194996006",
+    "CodeMeaning": "Anterior cardiac vein",
+    "BodyPartExamined": "ANTCARDIACV",
+    "SNOMED-RT ID (Retired)": "T-48403",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "60176003",
+    "CodeMeaning": "Anterior cerebral artery",
+    "BodyPartExamined": "ACA",
+    "SNOMED-RT ID (Retired)": "T-45540",
+    "FMA Code Value": "50028",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "8012006",
+    "CodeMeaning": "Anterior communicating artery",
+    "BodyPartExamined": "ANTCOMMA",
+    "SNOMED-RT ID (Retired)": "T-45530",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "17388009",
+    "CodeMeaning": "Anterior spinal artery",
+    "BodyPartExamined": "ANTSPINALA",
+    "SNOMED-RT ID (Retired)": "T-45730",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "68053000",
+    "CodeMeaning": "Anterior tibial artery",
+    "BodyPartExamined": "ANTTIBIALA",
+    "SNOMED-RT ID (Retired)": "T-47700",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "53505006",
+    "CodeMeaning": "Anus",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-59900",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110612005",
+    "CodeMeaning": "Anus, rectum and sigmoid colon",
+    "BodyPartExamined": "ANUSRECTUMSIGMD",
+    "SNOMED-RT ID (Retired)": "T-59490",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "15825003",
+    "CodeMeaning": "Aorta",
+    "BodyPartExamined": "AORTA",
+    "SNOMED-RT ID (Retired)": "T-42000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "57034009",
+    "CodeMeaning": "Aortic arch",
+    "BodyPartExamined": "AORTICARCH",
+    "SNOMED-RT ID (Retired)": "T-42300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128551005",
+    "CodeMeaning": "Aortic fistula",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D3-81922",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128564006",
+    "CodeMeaning": "Apex of left ventricle",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32602",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "86598002",
+    "CodeMeaning": "Apex of Lung",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-280A0",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128565007",
+    "CodeMeaning": "Apex of right ventricle",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32502",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "66754008",
+    "CodeMeaning": "Appendix",
+    "BodyPartExamined": "APPENDIX",
+    "SNOMED-RT ID (Retired)": "T-59200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "51114001",
+    "CodeMeaning": "Artery",
+    "BodyPartExamined": "ARTERY",
+    "SNOMED-RT ID (Retired)": "T-41000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "54247002",
+    "CodeMeaning": "Ascending aorta",
+    "BodyPartExamined": "ASCAORTA",
+    "SNOMED-RT ID (Retired)": "T-42100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "9040008",
+    "CodeMeaning": "Ascending colon",
+    "BodyPartExamined": "ASCENDINGCOLON",
+    "SNOMED-RT ID (Retired)": "T-59420",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "59652004",
+    "CodeMeaning": "Atrium",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "91470000",
+    "CodeMeaning": "Axilla",
+    "BodyPartExamined": "AXILLA",
+    "SNOMED-RT ID (Retired)": "T-D8104",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "67937003",
+    "CodeMeaning": "Axillary Artery",
+    "BodyPartExamined": "AXILLARYA",
+    "SNOMED-RT ID (Retired)": "T-47100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "68705008",
+    "CodeMeaning": "Axillary vein",
+    "BodyPartExamined": "AXILLARYV",
+    "SNOMED-RT ID (Retired)": "T-49110",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "72107004",
+    "CodeMeaning": "Azygos vein",
+    "BodyPartExamined": "AZYGOSVEIN",
+    "SNOMED-RT ID (Retired)": "T-48340",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "77568009",
+    "CodeMeaning": "Back",
+    "BodyPartExamined": "BACK",
+    "SNOMED-RT ID (Retired)": "T-D2100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128981007",
+    "CodeMeaning": "Baffle",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "A-00203",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "59011009",
+    "CodeMeaning": "Basilar artery",
+    "BodyPartExamined": "BASILARA",
+    "SNOMED-RT ID (Retired)": "T-45800",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "28273000",
+    "CodeMeaning": "Bile duct",
+    "BodyPartExamined": "BILEDUCT",
+    "SNOMED-RT ID (Retired)": "T-60610",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "34707002",
+    "CodeMeaning": "Biliary tract",
+    "BodyPartExamined": "BILIARYTRACT",
+    "SNOMED-RT ID (Retired)": "T-60600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": "C0005423"
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "89837001",
+    "CodeMeaning": "Bladder",
+    "BodyPartExamined": "BLADDER",
+    "SNOMED-RT ID (Retired)": "T-74000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110837003",
+    "CodeMeaning": "Bladder and urethra",
+    "BodyPartExamined": "BLADDERURETHRA",
+    "SNOMED-RT ID (Retired)": "T-DD123",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "91830000",
+    "CodeMeaning": "Body conduit",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D00AB",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "72001000",
+    "CodeMeaning": "Bone of lower limb",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-12700",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "371195002",
+    "CodeMeaning": "Bone of upper limb",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D0821",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128548003",
+    "CodeMeaning": "Boyd's perforating vein",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-49424",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "17137000",
+    "CodeMeaning": "Brachial artery",
+    "BodyPartExamined": "BRACHIALA",
+    "SNOMED-RT ID (Retired)": "T-47160",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "20115005",
+    "CodeMeaning": "Brachial vein",
+    "BodyPartExamined": "BRACHIALV",
+    "SNOMED-RT ID (Retired)": "T-49350",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "12738006",
+    "CodeMeaning": "Brain",
+    "BodyPartExamined": "BRAIN",
+    "SNOMED-RT ID (Retired)": "T-A0100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "76752008",
+    "CodeMeaning": "Breast",
+    "BodyPartExamined": "BREAST",
+    "SNOMED-RT ID (Retired)": "T-04000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "34411009",
+    "CodeMeaning": "Broad ligament",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D6500",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "955009",
+    "CodeMeaning": "Bronchus",
+    "BodyPartExamined": "BRONCHUS",
+    "SNOMED-RT ID (Retired)": "T-26000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "60819002",
+    "CodeMeaning": "Buccal region of face",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D1206",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "46862004",
+    "CodeMeaning": "Buttock",
+    "BodyPartExamined": "BUTTOCK",
+    "SNOMED-RT ID (Retired)": "T-D2600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "80144004",
+    "CodeMeaning": "Calcaneus",
+    "BodyPartExamined": "CALCANEUS",
+    "SNOMED-RT ID (Retired)": "T-12770",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "53840002",
+    "CodeMeaning": "Calf of leg",
+    "BodyPartExamined": "CALF",
+    "SNOMED-RT ID (Retired)": "T-D9440",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "2334006",
+    "CodeMeaning": "Calyx",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-72100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "69105007",
+    "CodeMeaning": "Carotid Artery",
+    "BodyPartExamined": "CAROTID",
+    "SNOMED-RT ID (Retired)": "T-45010",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "21479005",
+    "CodeMeaning": "Carotid bulb",
+    "BodyPartExamined": "BULB",
+    "SNOMED-RT ID (Retired)": "T-45170",
+    "FMA Code Value": "50094",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "57850000",
+    "CodeMeaning": "Celiac artery",
+    "BodyPartExamined": "CELIACA",
+    "SNOMED-RT ID (Retired)": "T-46400",
+    "FMA Code Value": "50737",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "20699002",
+    "CodeMeaning": "Cephalic vein",
+    "BodyPartExamined": "CEPHALICV",
+    "SNOMED-RT ID (Retired)": "T-49240",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "113305005",
+    "CodeMeaning": "Cerebellum",
+    "BodyPartExamined": "CEREBELLUM",
+    "SNOMED-RT ID (Retired)": "T-A6000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "88556005",
+    "CodeMeaning": "Cerebral artery",
+    "BodyPartExamined": "CEREBRALA",
+    "SNOMED-RT ID (Retired)": "T-45510",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "372073000",
+    "CodeMeaning": "Cerebral hemisphere",
+    "BodyPartExamined": "CEREBHEMISPHERE",
+    "SNOMED-RT ID (Retired)": "T-A010F",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "122494005",
+    "CodeMeaning": "Cervical spine",
+    "BodyPartExamined": "CSPINE",
+    "SNOMED-RT ID (Retired)": "T-11501",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "1217257000",
+    "CodeMeaning": "Cervico-thoracic spine",
+    "BodyPartExamined": "CTSPINE",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "71252005",
+    "CodeMeaning": "Cervix",
+    "BodyPartExamined": "CERVIX",
+    "SNOMED-RT ID (Retired)": "T-83200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "60819002",
+    "CodeMeaning": "Cheek",
+    "BodyPartExamined": "CHEEK",
+    "SNOMED-RT ID (Retired)": "T-D1206",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "43799004",
+    "CodeMeaning": "Chest",
+    "BodyPartExamined": "CHEST",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "416775004",
+    "CodeMeaning": "Chest, Abdomen and Pelvis",
+    "BodyPartExamined": "CHESTABDPELVIS",
+    "SNOMED-RT ID (Retired)": "R-FAB56",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "416550000",
+    "CodeMeaning": "Chest and Abdomen",
+    "BodyPartExamined": "CHESTABDOMEN",
+    "SNOMED-RT ID (Retired)": "R-FAB55",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "80621003",
+    "CodeMeaning": "Choroid plexus",
+    "BodyPartExamined": "CHOROIDPLEXUS",
+    "SNOMED-RT ID (Retired)": "T-A1900",
+    "FMA Code Value": "61934",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "11279006",
+    "CodeMeaning": "Circle of Willis",
+    "BodyPartExamined": "CIRCLEOFWILLIS",
+    "SNOMED-RT ID (Retired)": "T-45520",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "51299004",
+    "CodeMeaning": "Clavicle",
+    "BodyPartExamined": "CLAVICLE",
+    "SNOMED-RT ID (Retired)": "T-12310",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "64688005",
+    "CodeMeaning": "Coccyx",
+    "BodyPartExamined": "COCCYX",
+    "SNOMED-RT ID (Retired)": "T-11BF0",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "71854001",
+    "CodeMeaning": "Colon",
+    "BodyPartExamined": "COLON",
+    "SNOMED-RT ID (Retired)": "T-59300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "253276007",
+    "CodeMeaning": "Common atrium",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-31005",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "79741001",
+    "CodeMeaning": "Common bile duct",
+    "BodyPartExamined": "COMMONBILEDUCT",
+    "SNOMED-RT ID (Retired)": "T-64500",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": "C0009437"
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32062004",
+    "CodeMeaning": "Common carotid artery",
+    "BodyPartExamined": "CCA",
+    "SNOMED-RT ID (Retired)": "T-45100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "181347005",
+    "CodeMeaning": "Common femoral artery",
+    "BodyPartExamined": "CFA",
+    "SNOMED-RT ID (Retired)": "T-47402",
+    "FMA Code Value": "323778",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "397363009",
+    "CodeMeaning": "Common femoral vein",
+    "BodyPartExamined": "CFV",
+    "SNOMED-RT ID (Retired)": "G-035B",
+    "FMA Code Value": "323829",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "73634005",
+    "CodeMeaning": "Common iliac artery",
+    "BodyPartExamined": "COMILIACA",
+    "SNOMED-RT ID (Retired)": "T-46710",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "46027005",
+    "CodeMeaning": "Common iliac vein",
+    "BodyPartExamined": "COMILIACV",
+    "SNOMED-RT ID (Retired)": "T-48920",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "45503006",
+    "CodeMeaning": "Common ventricle",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-31120",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128555001",
+    "CodeMeaning": "Congenital coronary artery fistula to left atrium",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-32504",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128556000",
+    "CodeMeaning": "Congenital coronary artery fistula to left ventricle",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-32506",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128557009",
+    "CodeMeaning": "Congenital coronary artery fistula to right atrium",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-32509",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128558004",
+    "CodeMeaning": "Congenital coronary artery fistula to right ventricle",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-32510",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "111289009",
+    "CodeMeaning": "Pulmonary arteriovenous fistula",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D3-40208",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "28726007",
+    "CodeMeaning": "Cornea",
+    "BodyPartExamined": "CORNEA",
+    "SNOMED-RT ID (Retired)": "T-AA200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "41801008",
+    "CodeMeaning": "Coronary artery",
+    "BodyPartExamined": "CORONARYARTERY",
+    "SNOMED-RT ID (Retired)": "T-43000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "90219004",
+    "CodeMeaning": "Coronary sinus",
+    "BodyPartExamined": "CORONARYSINUS",
+    "SNOMED-RT ID (Retired)": "T-48410",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128320002",
+    "CodeMeaning": "Cranial venous system",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-A0191",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32672002",
+    "CodeMeaning": "Descending aorta",
+    "BodyPartExamined": "DESCAORTA",
+    "SNOMED-RT ID (Retired)": "T-42400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32622004",
+    "CodeMeaning": "Descending colon",
+    "BodyPartExamined": "DESCENDINGCOLON",
+    "SNOMED-RT ID (Retired)": "T-59460",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128554002",
+    "CodeMeaning": "Dodd's perforating vein",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-49429",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "38848004",
+    "CodeMeaning": "Duodenum",
+    "BodyPartExamined": "DUODENUM",
+    "SNOMED-RT ID (Retired)": "T-58200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "117590005",
+    "CodeMeaning": "Ear",
+    "BodyPartExamined": "EAR",
+    "SNOMED-RT ID (Retired)": "T-AB001",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "16953009",
+    "CodeMeaning": "Elbow joint",
+    "BodyPartExamined": "ELBOW",
+    "SNOMED-RT ID (Retired)": "T-15430",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "51114001",
+    "CodeMeaning": "Endo-arterial",
+    "BodyPartExamined": "ENDOARTERIAL",
+    "SNOMED-RT ID (Retired)": "T-41000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "80891009",
+    "CodeMeaning": "Endo-cardiac",
+    "BodyPartExamined": "ENDOCARDIAC",
+    "SNOMED-RT ID (Retired)": "T-32000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32849002",
+    "CodeMeaning": "Endo-esophageal",
+    "BodyPartExamined": "ENDOESOPHAGEAL",
+    "SNOMED-RT ID (Retired)": "T-56000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "2739003",
+    "CodeMeaning": "Endometrium",
+    "BodyPartExamined": "ENDOMETRIUM",
+    "SNOMED-RT ID (Retired)": "T-83400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "53342003",
+    "CodeMeaning": "Endo-nasal",
+    "BodyPartExamined": "ENDONASAL",
+    "SNOMED-RT ID (Retired)": "T-21300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "18962004",
+    "CodeMeaning": "Endo-nasopharyngeal",
+    "BodyPartExamined": "ENDONASOPHARYNYX",
+    "SNOMED-RT ID (Retired)": "T-23050",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "34402009",
+    "CodeMeaning": "Endo-rectal",
+    "BodyPartExamined": "ENDORECTAL",
+    "SNOMED-RT ID (Retired)": "T-59600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "64033007",
+    "CodeMeaning": "Endo-renal",
+    "BodyPartExamined": "ENDORENAL",
+    "SNOMED-RT ID (Retired)": "T-71000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "87953007",
+    "CodeMeaning": "Endo-ureteric",
+    "BodyPartExamined": "ENDOURETERIC",
+    "SNOMED-RT ID (Retired)": "T-73000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "13648007",
+    "CodeMeaning": "Endo-urethral",
+    "BodyPartExamined": "ENDOURETHRAL",
+    "SNOMED-RT ID (Retired)": "T-75000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "76784001",
+    "CodeMeaning": "Endo-vaginal",
+    "BodyPartExamined": "ENDOVAGINAL",
+    "SNOMED-RT ID (Retired)": "T-82000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "59820001",
+    "CodeMeaning": "Endo-vascular",
+    "BodyPartExamined": "ENDOVASCULAR",
+    "SNOMED-RT ID (Retired)": "T-40000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "29092000",
+    "CodeMeaning": "Endo-venous",
+    "BodyPartExamined": "ENDOVENOUS",
+    "SNOMED-RT ID (Retired)": "T-48000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "48367006",
+    "CodeMeaning": "Endo-vesical",
+    "BodyPartExamined": "ENDOVESICAL",
+    "SNOMED-RT ID (Retired)": "T-74250",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "38266002",
+    "CodeMeaning": "Entire body",
+    "BodyPartExamined": "WHOLEBODY",
+    "SNOMED-RT ID (Retired)": "T-D0010",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "87644002",
+    "CodeMeaning": "Epididymis",
+    "BodyPartExamined": "EPIDIDYMIS",
+    "SNOMED-RT ID (Retired)": "T-95000",
+    "FMA Code Value": "18255",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "27947004",
+    "CodeMeaning": "Epigastric region",
+    "BodyPartExamined": "EPIGASTRIC",
+    "SNOMED-RT ID (Retired)": "T-D4200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32849002",
+    "CodeMeaning": "Esophagus",
+    "BodyPartExamined": "ESOPHAGUS",
+    "SNOMED-RT ID (Retired)": "T-56000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110861005",
+    "CodeMeaning": "Esophagus, stomach and duodenum",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-DD163",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "84301002",
+    "CodeMeaning": "External auditory canal",
+    "BodyPartExamined": "EAC",
+    "SNOMED-RT ID (Retired)": "T-AB200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "22286001",
+    "CodeMeaning": "External carotid artery",
+    "BodyPartExamined": "ECA",
+    "SNOMED-RT ID (Retired)": "T-45200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "113269004",
+    "CodeMeaning": "External iliac artery",
+    "BodyPartExamined": "EXTILIACA",
+    "SNOMED-RT ID (Retired)": "T-46910",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "63507001",
+    "CodeMeaning": "External iliac vein",
+    "BodyPartExamined": "EXTILIACV",
+    "SNOMED-RT ID (Retired)": "T-48930",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "71585003",
+    "CodeMeaning": "External jugular vein",
+    "BodyPartExamined": "EXTJUGV",
+    "SNOMED-RT ID (Retired)": "T-48160",
+    "FMA Code Value": "13110",
+    "UMLS Concept UniqueID": "C0226543"
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "66019005",
+    "CodeMeaning": "Extremity",
+    "BodyPartExamined": "EXTREMITY",
+    "SNOMED-RT ID (Retired)": "T-D0300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "81745001",
+    "CodeMeaning": "Eye",
+    "BodyPartExamined": "EYE",
+    "SNOMED-RT ID (Retired)": "T-AA000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "80243003",
+    "CodeMeaning": "Eyelid",
+    "BodyPartExamined": "EYELID",
+    "SNOMED-RT ID (Retired)": "T-AA810",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "371398005",
+    "CodeMeaning": "Eye region",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D0801",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "89545001",
+    "CodeMeaning": "Face",
+    "BodyPartExamined": "FACE",
+    "SNOMED-RT ID (Retired)": "T-D1200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "23074001",
+    "CodeMeaning": "Facial artery",
+    "BodyPartExamined": "FACIALA",
+    "SNOMED-RT ID (Retired)": "T-45240",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "91397008",
+    "CodeMeaning": "Facial bones",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-11196",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "7657000",
+    "CodeMeaning": "Femoral artery",
+    "BodyPartExamined": "FEMORALA",
+    "SNOMED-RT ID (Retired)": "T-47400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "83419000",
+    "CodeMeaning": "Femoral vein",
+    "BodyPartExamined": "FEMORALV",
+    "SNOMED-RT ID (Retired)": "T-49410",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "71341001",
+    "CodeMeaning": "Femur",
+    "BodyPartExamined": "FEMUR",
+    "SNOMED-RT ID (Retired)": "T-12710",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "",
+    "CodeValue": "",
+    "CodeMeaning": "Fetal arm",
+    "BodyPartExamined": "FETALARM",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "",
+    "CodeValue": "",
+    "CodeMeaning": "Fetal digit",
+    "BodyPartExamined": "FETALDIGIT",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "",
+    "CodeValue": "",
+    "CodeMeaning": "Fetal heart",
+    "BodyPartExamined": "FETALHEART",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "63931",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "",
+    "CodeValue": "",
+    "CodeMeaning": "Fetal leg",
+    "BodyPartExamined": "FETALLEG",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "",
+    "CodeValue": "",
+    "CodeMeaning": "Fetal pole",
+    "BodyPartExamined": "FETALPOLE",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "87342007",
+    "CodeMeaning": "Fibula",
+    "BodyPartExamined": "FIBULA",
+    "SNOMED-RT ID (Retired)": "T-12750",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "7569003",
+    "CodeMeaning": "Finger",
+    "BodyPartExamined": "FINGER",
+    "SNOMED-RT ID (Retired)": "T-D8800",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "58602004",
+    "CodeMeaning": "Flank",
+    "BodyPartExamined": "FLANK",
+    "SNOMED-RT ID (Retired)": "T-D2310",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "79361005",
+    "CodeMeaning": "Fontanel of skull",
+    "BodyPartExamined": "FONTANEL",
+    "SNOMED-RT ID (Retired)": "T-15200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "56459004",
+    "CodeMeaning": "Foot",
+    "BodyPartExamined": "FOOT",
+    "SNOMED-RT ID (Retired)": "T-D9700",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "14975008",
+    "CodeMeaning": "Forearm",
+    "BodyPartExamined": "FOREARM",
+    "SNOMED-RT ID (Retired)": "T-D8500",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "35918002",
+    "CodeMeaning": "Fourth ventricle",
+    "BodyPartExamined": "4THVENTRICLE",
+    "SNOMED-RT ID (Retired)": "T-A1820",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "28231008",
+    "CodeMeaning": "Gallbladder",
+    "BodyPartExamined": "GALLBLADDER",
+    "SNOMED-RT ID (Retired)": "T-63000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110568007",
+    "CodeMeaning": "Gastric vein",
+    "BodyPartExamined": "GASTRICV",
+    "SNOMED-RT ID (Retired)": "T-48820",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128559007",
+    "CodeMeaning": "Genicular artery",
+    "BodyPartExamined": "GENICULARA",
+    "SNOMED-RT ID (Retired)": "T-47490",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "300571009",
+    "CodeMeaning": "Gestational sac",
+    "BodyPartExamined": "GESTSAC",
+    "SNOMED-RT ID (Retired)": "F-03FC9",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "46862004",
+    "CodeMeaning": "Gluteal region",
+    "BodyPartExamined": "GLUTEAL",
+    "SNOMED-RT ID (Retired)": "T-D2600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "5928000",
+    "CodeMeaning": "Great cardiac vein",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-48420",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "60734001",
+    "CodeMeaning": "Great saphenous vein",
+    "BodyPartExamined": "GSV",
+    "SNOMED-RT ID (Retired)": "T-49530",
+    "FMA Code Value": "21376",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "85562004",
+    "CodeMeaning": "Hand",
+    "BodyPartExamined": "HAND",
+    "SNOMED-RT ID (Retired)": "T-D8700",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "69536005",
+    "CodeMeaning": "Head",
+    "BodyPartExamined": "HEAD",
+    "SNOMED-RT ID (Retired)": "T-D1100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "774007",
+    "CodeMeaning": "Head and Neck",
+    "BodyPartExamined": "HEADNECK",
+    "SNOMED-RT ID (Retired)": "T-D1000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "80891009",
+    "CodeMeaning": "Heart",
+    "BodyPartExamined": "HEART",
+    "SNOMED-RT ID (Retired)": "T-32000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "76015000",
+    "CodeMeaning": "Hepatic artery",
+    "BodyPartExamined": "HEPATICA",
+    "SNOMED-RT ID (Retired)": "T-46420",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "8993003",
+    "CodeMeaning": "Hepatic vein",
+    "BodyPartExamined": "HEPATICV",
+    "SNOMED-RT ID (Retired)": "T-48720",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "24136001",
+    "CodeMeaning": "Hip joint",
+    "BodyPartExamined": "HIP",
+    "SNOMED-RT ID (Retired)": "T-15710",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "85050009",
+    "CodeMeaning": "Humerus",
+    "BodyPartExamined": "HUMERUS",
+    "SNOMED-RT ID (Retired)": "T-12410",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128560002",
+    "CodeMeaning": "Hunterian perforating vein",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-4942A",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "11708003",
+    "CodeMeaning": "Hypogastric region",
+    "BodyPartExamined": "HYPOGASTRIC",
+    "SNOMED-RT ID (Retired)": "T-D4240",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "81502006",
+    "CodeMeaning": "Hypopharynx",
+    "BodyPartExamined": "HYPOPHARYNX",
+    "SNOMED-RT ID (Retired)": "T-55300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "34516001",
+    "CodeMeaning": "Ileum",
+    "BodyPartExamined": "ILEUM",
+    "SNOMED-RT ID (Retired)": "T-58600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "299716001",
+    "CodeMeaning": "Iliac and/or femoral artery",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-41068",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "10293006",
+    "CodeMeaning": "Iliac artery",
+    "BodyPartExamined": "ILIACA",
+    "SNOMED-RT ID (Retired)": "T-46700",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "244411005",
+    "CodeMeaning": "Iliac vein",
+    "BodyPartExamined": "ILIACV",
+    "SNOMED-RT ID (Retired)": "T-4940E",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "22356005",
+    "CodeMeaning": "Ilium",
+    "BodyPartExamined": "ILIUM",
+    "SNOMED-RT ID (Retired)": "T-12340",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "195416006",
+    "CodeMeaning": "Inferior cardiac vein",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-484A4",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "51249003",
+    "CodeMeaning": "Inferior left pulmonary vein",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-48540",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "33795007",
+    "CodeMeaning": "Inferior mesenteric artery",
+    "BodyPartExamined": "INFMESA",
+    "SNOMED-RT ID (Retired)": "T-46520",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "113273001",
+    "CodeMeaning": "Inferior right pulmonary vein",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-48520",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "64131007",
+    "CodeMeaning": "Inferior vena cava",
+    "BodyPartExamined": "INFVENACAVA",
+    "SNOMED-RT ID (Retired)": "T-48710",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "26893007",
+    "CodeMeaning": "Inguinal region",
+    "BodyPartExamined": "INGUINAL",
+    "SNOMED-RT ID (Retired)": "T-D7000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "12691009",
+    "CodeMeaning": "Innominate artery",
+    "BodyPartExamined": "INNOMINATEA",
+    "SNOMED-RT ID (Retired)": "T-46010",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "8887007",
+    "CodeMeaning": "Innominate vein",
+    "BodyPartExamined": "INNOMINATEV",
+    "SNOMED-RT ID (Retired)": "T-48620",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "361078006",
+    "CodeMeaning": "Internal Auditory Canal",
+    "BodyPartExamined": "IAC",
+    "SNOMED-RT ID (Retired)": "T-AB959",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "86117002",
+    "CodeMeaning": "Internal carotid artery",
+    "BodyPartExamined": "ICA",
+    "SNOMED-RT ID (Retired)": "T-45300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "90024005",
+    "CodeMeaning": "Internal iliac artery",
+    "BodyPartExamined": "INTILIACA",
+    "SNOMED-RT ID (Retired)": "T-46740",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "12123001",
+    "CodeMeaning": "Internal jugular vein",
+    "BodyPartExamined": "INTJUGULARV",
+    "SNOMED-RT ID (Retired)": "T-48170",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "69327007",
+    "CodeMeaning": "Internal mammary artery",
+    "BodyPartExamined": "INTMAMMARYA",
+    "SNOMED-RT ID (Retired)": "T-46200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "818987002",
+    "CodeMeaning": "Intra-abdominopelvic",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "131183008",
+    "CodeMeaning": "Intra-articular",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "G-A15A",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "1101003",
+    "CodeMeaning": "Intracranial",
+    "BodyPartExamined": "INTRACRANIAL",
+    "SNOMED-RT ID (Retired)": "T-D1400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32849002",
+    "CodeMeaning": "Intra-esophageal",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-56000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "816989007",
+    "CodeMeaning": "Intra-pelvic",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "43799004",
+    "CodeMeaning": "Intra-thoracic",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "661005",
+    "CodeMeaning": "Jaw region",
+    "BodyPartExamined": "JAW",
+    "SNOMED-RT ID (Retired)": "T-D1213",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "21306003",
+    "CodeMeaning": "Jejunum",
+    "BodyPartExamined": "JEJUNUM",
+    "SNOMED-RT ID (Retired)": "T-58400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "39352004",
+    "CodeMeaning": "Joint",
+    "BodyPartExamined": "JOINT",
+    "SNOMED-RT ID (Retired)": "T-15001",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128563000",
+    "CodeMeaning": "Juxtaposed atrial appendage",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-31052",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "64033007",
+    "CodeMeaning": "Kidney",
+    "BodyPartExamined": "KIDNEY",
+    "SNOMED-RT ID (Retired)": "T-71000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "72696002",
+    "CodeMeaning": "Knee",
+    "BodyPartExamined": "KNEE",
+    "SNOMED-RT ID (Retired)": "T-D9200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "59749000",
+    "CodeMeaning": "Lacrimal artery",
+    "BodyPartExamined": "LACRIMALA",
+    "SNOMED-RT ID (Retired)": "T-45410",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128979005",
+    "CodeMeaning": "Lacrimal artery of right eye",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-45416",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "14742008",
+    "CodeMeaning": "Large intestine",
+    "BodyPartExamined": "LARGEINTESTINE",
+    "SNOMED-RT ID (Retired)": "T-59000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "4596009",
+    "CodeMeaning": "Larynx",
+    "BodyPartExamined": "LARYNX",
+    "SNOMED-RT ID (Retired)": "T-24100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "66720007",
+    "CodeMeaning": "Lateral Ventricle",
+    "BodyPartExamined": "LATVENTRICLE",
+    "SNOMED-RT ID (Retired)": "T-A1650",
+    "FMA Code Value": "78448",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "82471001",
+    "CodeMeaning": "Left atrium",
+    "BodyPartExamined": "LATRIUM",
+    "SNOMED-RT ID (Retired)": "T-32300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "33626005",
+    "CodeMeaning": "Left auricular appendage",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32310",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "113270003",
+    "CodeMeaning": "Left femoral artery",
+    "BodyPartExamined": "LFEMORALA",
+    "SNOMED-RT ID (Retired)": "T-47420",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "273202007",
+    "CodeMeaning": "Left hepatic vein",
+    "BodyPartExamined": "LHEPATICV",
+    "SNOMED-RT ID (Retired)": "T-48727",
+    "FMA Code Value": "14339",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "133945003",
+    "CodeMeaning": "Left hypochondriac region",
+    "BodyPartExamined": "LHYPOCHONDRIAC",
+    "SNOMED-RT ID (Retired)": "T-D4211",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "85119005",
+    "CodeMeaning": "Left inguinal region",
+    "BodyPartExamined": "LINGUINAL",
+    "SNOMED-RT ID (Retired)": "T-D7020",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "68505006",
+    "CodeMeaning": "Left lower quadrant of abdomen",
+    "BodyPartExamined": "LLQ",
+    "SNOMED-RT ID (Retired)": "T-D4140",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "1017210004",
+    "CodeMeaning": "Left lumbar region",
+    "BodyPartExamined": "LLUMBAR",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "70253006",
+    "CodeMeaning": "Left portal vein",
+    "BodyPartExamined": "LPORTALV",
+    "SNOMED-RT ID (Retired)": "T-48814",
+    "FMA Code Value": "15415",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "50408007",
+    "CodeMeaning": "Left pulmonary artery",
+    "BodyPartExamined": "LPULMONARYA",
+    "SNOMED-RT ID (Retired)": "T-44400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "86367003",
+    "CodeMeaning": "Left upper quadrant of abdomen",
+    "BodyPartExamined": "LUQ",
+    "SNOMED-RT ID (Retired)": "T-D4130",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "87878005",
+    "CodeMeaning": "Left ventricle",
+    "BodyPartExamined": "LVENTRICLE",
+    "SNOMED-RT ID (Retired)": "T-32600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "70238003",
+    "CodeMeaning": "Left ventricle inflow",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32640",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "13418002",
+    "CodeMeaning": "Left ventricle outflow tract",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32650",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "113264009",
+    "CodeMeaning": "Lingual artery",
+    "BodyPartExamined": "LINGUALA",
+    "SNOMED-RT ID (Retired)": "T-45230",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "10200004",
+    "CodeMeaning": "Liver",
+    "BodyPartExamined": "LIVER",
+    "SNOMED-RT ID (Retired)": "T-62000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "19100000",
+    "CodeMeaning": "Lower inner quadrant of breast",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-04003",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "30021000",
+    "CodeMeaning": "Lower leg",
+    "BodyPartExamined": "LOWERLEG",
+    "SNOMED-RT ID (Retired)": "T-D9400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "61685007",
+    "CodeMeaning": "Lower limb",
+    "BodyPartExamined": "LOWERLIMB",
+    "SNOMED-RT ID (Retired)": "T-D9000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "33564002",
+    "CodeMeaning": "Lower outer quadrant of breast",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-04005",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "34635009",
+    "CodeMeaning": "Lumbar artery",
+    "BodyPartExamined": "LUMBARA",
+    "SNOMED-RT ID (Retired)": "T-46960",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "52612000",
+    "CodeMeaning": "Lumbar region",
+    "BodyPartExamined": "LUMBAR",
+    "SNOMED-RT ID (Retired)": "T-D2300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "122496007",
+    "CodeMeaning": "Lumbar spine",
+    "BodyPartExamined": "LSPINE",
+    "SNOMED-RT ID (Retired)": "T-11503",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "1217253001",
+    "CodeMeaning": "Lumbo-sacral spine",
+    "BodyPartExamined": "LSSPINE",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "91747007",
+    "CodeMeaning": "Lumen of blood vessel",
+    "BodyPartExamined": "LUMEN",
+    "SNOMED-RT ID (Retired)": "T-40230",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "39607008",
+    "CodeMeaning": "Lung",
+    "BodyPartExamined": "LUNG",
+    "SNOMED-RT ID (Retired)": "T-28000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "91609006",
+    "CodeMeaning": "Mandible",
+    "BodyPartExamined": "MANDIBLE",
+    "SNOMED-RT ID (Retired)": "T-11180",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "59066005",
+    "CodeMeaning": "Mastoid bone",
+    "BodyPartExamined": "MASTOID",
+    "SNOMED-RT ID (Retired)": "T-11133",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "70925003",
+    "CodeMeaning": "Maxilla",
+    "BodyPartExamined": "MAXILLA",
+    "SNOMED-RT ID (Retired)": "T-11170",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "72410000",
+    "CodeMeaning": "Mediastinum",
+    "BodyPartExamined": "MEDIASTINUM",
+    "SNOMED-RT ID (Retired)": "T-D3300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "86570000",
+    "CodeMeaning": "Mesenteric artery",
+    "BodyPartExamined": "MESENTRICA",
+    "SNOMED-RT ID (Retired)": "T-46500",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128583004",
+    "CodeMeaning": "Mesenteric vein",
+    "BodyPartExamined": "MESENTRICV",
+    "SNOMED-RT ID (Retired)": "T-4884A",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "17232002",
+    "CodeMeaning": "Middle cerebral artery",
+    "BodyPartExamined": "MCA",
+    "SNOMED-RT ID (Retired)": "T-45600",
+    "FMA Code Value": "50079",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "273099000",
+    "CodeMeaning": "Middle hepatic vein",
+    "BodyPartExamined": "MIDHEPATICV",
+    "SNOMED-RT ID (Retired)": "T-48726",
+    "FMA Code Value": "14340",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "243977002",
+    "CodeMeaning": "Morisons pouch",
+    "BodyPartExamined": "MORISONSPOUCH",
+    "SNOMED-RT ID (Retired)": "T-D4434",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "123851003",
+    "CodeMeaning": "Mouth",
+    "BodyPartExamined": "MOUTH",
+    "SNOMED-RT ID (Retired)": "T-D0662",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "102292000",
+    "CodeMeaning": "Muscle of lower limb",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-14668",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "30608006",
+    "CodeMeaning": "Muscle of upper limb",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-13600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "74386004",
+    "CodeMeaning": "Nasal bone",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-11149",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "360955006",
+    "CodeMeaning": "Nasopharynx",
+    "BodyPartExamined": "NASOPHARYNX",
+    "SNOMED-RT ID (Retired)": "T-2300C",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "45048000",
+    "CodeMeaning": "Neck",
+    "BodyPartExamined": "NECK",
+    "SNOMED-RT ID (Retired)": "T-D1600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "416319003",
+    "CodeMeaning": "Neck, Chest, Abdomen and Pelvis",
+    "BodyPartExamined": "NECKCHESTABDPELV",
+    "SNOMED-RT ID (Retired)": "R-FAB54",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "416152001",
+    "CodeMeaning": "Neck, Chest and Abdomen",
+    "BodyPartExamined": "NECKCHESTABDOMEN",
+    "SNOMED-RT ID (Retired)": "R-FAB53",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "417437006",
+    "CodeMeaning": "Neck and Chest",
+    "BodyPartExamined": "NECKCHEST",
+    "SNOMED-RT ID (Retired)": "R-FAB52",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "45206002",
+    "CodeMeaning": "Nose",
+    "BodyPartExamined": "NOSE",
+    "SNOMED-RT ID (Retired)": "T-21000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "31145008",
+    "CodeMeaning": "Occipital artery",
+    "BodyPartExamined": "OCCPITALA",
+    "SNOMED-RT ID (Retired)": "T-45250",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32114007",
+    "CodeMeaning": "Occipital vein",
+    "BodyPartExamined": "OCCIPTALV",
+    "SNOMED-RT ID (Retired)": "T-48214",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "113346000",
+    "CodeMeaning": "Omental bursa",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D4450",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "27398004",
+    "CodeMeaning": "Omentum",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D4600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "53549008",
+    "CodeMeaning": "Ophthalmic artery",
+    "BodyPartExamined": "OPHTHALMICA",
+    "SNOMED-RT ID (Retired)": "T-45400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "55024004",
+    "CodeMeaning": "Optic canal",
+    "BodyPartExamined": "OPTICCANAL",
+    "SNOMED-RT ID (Retired)": "T-11102",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "363654007",
+    "CodeMeaning": "Orbital structure",
+    "BodyPartExamined": "ORBIT",
+    "SNOMED-RT ID (Retired)": "T-D14AE",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "15497006",
+    "CodeMeaning": "Ovary",
+    "BodyPartExamined": "OVARY",
+    "SNOMED-RT ID (Retired)": "T-87000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "15776009",
+    "CodeMeaning": "Pancreas",
+    "BodyPartExamined": "PANCREAS",
+    "SNOMED-RT ID (Retired)": "T-65000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "69930009",
+    "CodeMeaning": "Pancreatic duct",
+    "BodyPartExamined": "PANCREATICDUCT",
+    "SNOMED-RT ID (Retired)": "T-65010",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110621006",
+    "CodeMeaning": "Pancreatic duct and bile duct systems",
+    "BodyPartExamined": "PANCBILEDUCT",
+    "SNOMED-RT ID (Retired)": "T-65600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "2095001",
+    "CodeMeaning": "Paranasal sinus",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-22000",
+    "FMA Code Value": "SINUS",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "91691001",
+    "CodeMeaning": "Parasternal",
+    "BodyPartExamined": "PARASTERNAL",
+    "SNOMED-RT ID (Retired)": "T-D3136",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "111002",
+    "CodeMeaning": "Parathyroid",
+    "BodyPartExamined": "PARATHYROID",
+    "SNOMED-RT ID (Retired)": "T-B7000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "45289007",
+    "CodeMeaning": "Parotid gland",
+    "BodyPartExamined": "PAROTID",
+    "SNOMED-RT ID (Retired)": "T-61100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "64234005",
+    "CodeMeaning": "Patella",
+    "BodyPartExamined": "PATELLA",
+    "SNOMED-RT ID (Retired)": "T-12730",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "83330001",
+    "CodeMeaning": "Patent ductus arteriosus",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-32012",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "816092008",
+    "CodeMeaning": "Pelvis",
+    "BodyPartExamined": "PELVIS",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "1231522001",
+    "CodeMeaning": "Pelvis and lower extremities",
+    "BodyPartExamined": "PELVISLOWEXTREMT",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "282044005",
+    "CodeMeaning": "Penile artery",
+    "BodyPartExamined": "PENILEA",
+    "SNOMED-RT ID (Retired)": "T-46807",
+    "FMA Code Value": "66318",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "18911002",
+    "CodeMeaning": "Penis",
+    "BodyPartExamined": "PENIS",
+    "SNOMED-RT ID (Retired)": "T-91000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "38864007",
+    "CodeMeaning": "Perineum",
+    "BodyPartExamined": "PERINEUM",
+    "SNOMED-RT ID (Retired)": "T-D2700",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "8821006",
+    "CodeMeaning": "Peroneal artery",
+    "BodyPartExamined": "PERONEALA",
+    "SNOMED-RT ID (Retired)": "T-47630",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "706342009",
+    "CodeMeaning": "Phantom",
+    "BodyPartExamined": "PHANTOM",
+    "SNOMED-RT ID (Retired)": "R-FE0C7",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": "C0282611"
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "54066008",
+    "CodeMeaning": "Pharynx",
+    "BodyPartExamined": "PHARYNX",
+    "SNOMED-RT ID (Retired)": "T-55000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "312535008",
+    "CodeMeaning": "Pharynx and larynx",
+    "BodyPartExamined": "PHARYNXLARYNX",
+    "SNOMED-RT ID (Retired)": "T-20101",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "78067005",
+    "CodeMeaning": "Placenta",
+    "BodyPartExamined": "PLACENTA",
+    "SNOMED-RT ID (Retired)": "T-F1100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "43899006",
+    "CodeMeaning": "Popliteal artery",
+    "BodyPartExamined": "POPLITEALA",
+    "SNOMED-RT ID (Retired)": "T-47500",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32361000",
+    "CodeMeaning": "Popliteal fossa",
+    "BodyPartExamined": "POPLITEALFOSSA",
+    "SNOMED-RT ID (Retired)": "T-D9310",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "56849005",
+    "CodeMeaning": "Popliteal vein",
+    "BodyPartExamined": "POPLITEALV",
+    "SNOMED-RT ID (Retired)": "T-49650",
+    "FMA Code Value": "44327",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "32764006",
+    "CodeMeaning": "Portal vein",
+    "BodyPartExamined": "PORTALV",
+    "SNOMED-RT ID (Retired)": "T-48810",
+    "FMA Code Value": "66645",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "70382005",
+    "CodeMeaning": "Posterior cerebral artery",
+    "BodyPartExamined": "PCA",
+    "SNOMED-RT ID (Retired)": "T-45900",
+    "FMA Code Value": "50583",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "43119007",
+    "CodeMeaning": "Posterior communicating artery",
+    "BodyPartExamined": "POSCOMMA",
+    "SNOMED-RT ID (Retired)": "T-45320",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128569001",
+    "CodeMeaning": "Posterior medial tributary",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-49535",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "13363002",
+    "CodeMeaning": "Posterior tibial artery",
+    "BodyPartExamined": "POSTIBIALA",
+    "SNOMED-RT ID (Retired)": "T-47600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "14944004",
+    "CodeMeaning": "Primitive aorta",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-F7001",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "91707000",
+    "CodeMeaning": "Primitive pulmonary artery",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-F7040",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "31677005",
+    "CodeMeaning": "Profunda femoris artery",
+    "BodyPartExamined": "PROFFEMA",
+    "SNOMED-RT ID (Retired)": "T-47440",
+    "FMA Code Value": "20741",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "23438002",
+    "CodeMeaning": "Profunda femoris vein",
+    "BodyPartExamined": "PROFFEMV",
+    "SNOMED-RT ID (Retired)": "T-49660",
+    "FMA Code Value": "51041",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "41216001",
+    "CodeMeaning": "Prostate",
+    "BodyPartExamined": "PROSTATE",
+    "SNOMED-RT ID (Retired)": "T-92000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "81040000",
+    "CodeMeaning": "Pulmonary artery",
+    "BodyPartExamined": "PULMONARYA",
+    "SNOMED-RT ID (Retired)": "T-44000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128584005",
+    "CodeMeaning": "Pulmonary artery conduit",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-33142",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128586007",
+    "CodeMeaning": "Pulmonary chamber of cor triatriatum",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32190",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "122972007",
+    "CodeMeaning": "Pulmonary vein",
+    "BodyPartExamined": "PULMONARYV",
+    "SNOMED-RT ID (Retired)": "T-48581",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128566008",
+    "CodeMeaning": "Pulmonary vein confluence",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-33512",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128567004",
+    "CodeMeaning": "Pulmonary venous atrium",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-33514",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "45631007",
+    "CodeMeaning": "Radial artery",
+    "BodyPartExamined": "RADIALA",
+    "SNOMED-RT ID (Retired)": "T-47300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "62413002",
+    "CodeMeaning": "Radius",
+    "BodyPartExamined": "RADIUS",
+    "SNOMED-RT ID (Retired)": "T-12420",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110535000",
+    "CodeMeaning": "Radius and ulna",
+    "BodyPartExamined": "RADIUSULNA",
+    "SNOMED-RT ID (Retired)": "T-12403",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "53843000",
+    "CodeMeaning": "Rectouterine pouch",
+    "BodyPartExamined": "CULDESAC",
+    "SNOMED-RT ID (Retired)": "T-D6407",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "34402009",
+    "CodeMeaning": "Rectum",
+    "BodyPartExamined": "RECTUM",
+    "SNOMED-RT ID (Retired)": "T-59600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "2841007",
+    "CodeMeaning": "Renal artery",
+    "BodyPartExamined": "RENALA",
+    "SNOMED-RT ID (Retired)": "T-46600",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "25990002",
+    "CodeMeaning": "Renal pelvis",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-72000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "56400007",
+    "CodeMeaning": "Renal vein",
+    "BodyPartExamined": "RENALV",
+    "SNOMED-RT ID (Retired)": "T-48740",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "82849001",
+    "CodeMeaning": "Retroperitoneum",
+    "BodyPartExamined": "RETROPERITONEUM",
+    "SNOMED-RT ID (Retired)": "T-D4900",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "113197003",
+    "CodeMeaning": "Rib",
+    "BodyPartExamined": "RIB",
+    "SNOMED-RT ID (Retired)": "T-11300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "73829009",
+    "CodeMeaning": "Right atrium",
+    "BodyPartExamined": "RATRIUM",
+    "SNOMED-RT ID (Retired)": "T-32200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "68300000",
+    "CodeMeaning": "Right auricular appendage",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32210",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "69833005",
+    "CodeMeaning": "Right femoral artery",
+    "BodyPartExamined": "RFEMORALA",
+    "SNOMED-RT ID (Retired)": "T-47410",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "272998002",
+    "CodeMeaning": "Right hepatic vein",
+    "BodyPartExamined": "RHEPATICV",
+    "SNOMED-RT ID (Retired)": "T-48725",
+    "FMA Code Value": "14338",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "133946002",
+    "CodeMeaning": "Right hypochondriac region",
+    "BodyPartExamined": "RHYPOCHONDRIAC",
+    "SNOMED-RT ID (Retired)": "T-D4212",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "37117007",
+    "CodeMeaning": "Right inguinal region",
+    "BodyPartExamined": "RINGUINAL",
+    "SNOMED-RT ID (Retired)": "T-D7010",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "48544008",
+    "CodeMeaning": "Right lower quadrant of abdomen",
+    "BodyPartExamined": "RLQ",
+    "SNOMED-RT ID (Retired)": "T-D4120",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "1017211000",
+    "CodeMeaning": "Right lumbar region",
+    "BodyPartExamined": "RLUMBAR",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "73931004",
+    "CodeMeaning": "Right portal vein",
+    "BodyPartExamined": "RPORTALV",
+    "SNOMED-RT ID (Retired)": "T-48813",
+    "FMA Code Value": "15414",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "78480002",
+    "CodeMeaning": "Right pulmonary artery",
+    "BodyPartExamined": "RPULMONARYA",
+    "SNOMED-RT ID (Retired)": "T-44200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "50519007",
+    "CodeMeaning": "Right upper quadrant of abdomen",
+    "BodyPartExamined": "RUQ",
+    "SNOMED-RT ID (Retired)": "T-D4110",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "53085002",
+    "CodeMeaning": "Right ventricle",
+    "BodyPartExamined": "RVENTRICLE",
+    "SNOMED-RT ID (Retired)": "T-32500",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "8017000",
+    "CodeMeaning": "Right ventricle inflow",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32540",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "44627009",
+    "CodeMeaning": "Right ventricle outflow tract",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32550",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "39723000",
+    "CodeMeaning": "Sacroiliac joint",
+    "BodyPartExamined": "SIJOINT",
+    "SNOMED-RT ID (Retired)": "T-15680",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "54735007",
+    "CodeMeaning": "Sacrum",
+    "BodyPartExamined": "SSPINE",
+    "SNOMED-RT ID (Retired)": "T-11AD0",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128587003",
+    "CodeMeaning": "Saphenofemoral junction",
+    "BodyPartExamined": "SFJ",
+    "SNOMED-RT ID (Retired)": "T-D930A",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "362072009",
+    "CodeMeaning": "Saphenous vein",
+    "BodyPartExamined": "SAPHENOUSV",
+    "SNOMED-RT ID (Retired)": "T-4940B",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": "C0036186"
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "41695006",
+    "CodeMeaning": "Scalp",
+    "BodyPartExamined": "SCALP",
+    "SNOMED-RT ID (Retired)": "T-D1160",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "79601000",
+    "CodeMeaning": "Scapula",
+    "BodyPartExamined": "SCAPULA",
+    "SNOMED-RT ID (Retired)": "T-12280",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "18619003",
+    "CodeMeaning": "Sclera",
+    "BodyPartExamined": "SCLERA",
+    "SNOMED-RT ID (Retired)": "T-AA110",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "20233005",
+    "CodeMeaning": "Scrotum",
+    "BodyPartExamined": "SCROTUM",
+    "SNOMED-RT ID (Retired)": "T-98000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "42575006",
+    "CodeMeaning": "Sella turcica",
+    "BodyPartExamined": "SELLA",
+    "SNOMED-RT ID (Retired)": "T-D1460",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "64739004",
+    "CodeMeaning": "Seminal vesicle",
+    "BodyPartExamined": "SEMVESICLE",
+    "SNOMED-RT ID (Retired)": "T-93000",
+    "FMA Code Value": "19386",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "58742003",
+    "CodeMeaning": "Sesamoid bones of foot",
+    "BodyPartExamined": "SESAMOID",
+    "SNOMED-RT ID (Retired)": "T-12980",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "16982005",
+    "CodeMeaning": "Shoulder",
+    "BodyPartExamined": "SHOULDER",
+    "SNOMED-RT ID (Retired)": "T-D2220",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "60184004",
+    "CodeMeaning": "Sigmoid colon",
+    "BodyPartExamined": "SIGMOID",
+    "SNOMED-RT ID (Retired)": "T-59470",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "89546000",
+    "CodeMeaning": "Skull",
+    "BodyPartExamined": "SKULL",
+    "SNOMED-RT ID (Retired)": "T-11100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "30315005",
+    "CodeMeaning": "Small intestine",
+    "BodyPartExamined": "SMALLINTESTINE",
+    "SNOMED-RT ID (Retired)": "T-58000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "2748008",
+    "CodeMeaning": "Spinal cord",
+    "BodyPartExamined": "SPINALCORD",
+    "SNOMED-RT ID (Retired)": "T-A7010",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "421060004",
+    "CodeMeaning": "Spine",
+    "BodyPartExamined": "SPINE",
+    "SNOMED-RT ID (Retired)": "T-D04FF",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "78961009",
+    "CodeMeaning": "Spleen",
+    "BodyPartExamined": "SPLEEN",
+    "SNOMED-RT ID (Retired)": "T-C3000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "22083002",
+    "CodeMeaning": "Splenic artery",
+    "BodyPartExamined": "SPLENICA",
+    "SNOMED-RT ID (Retired)": "T-46460",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "35819009",
+    "CodeMeaning": "Splenic vein",
+    "BodyPartExamined": "SPLENICV",
+    "SNOMED-RT ID (Retired)": "T-48890",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "7844006",
+    "CodeMeaning": "Sternoclavicular joint",
+    "BodyPartExamined": "SCJOINT",
+    "SNOMED-RT ID (Retired)": "T-15610",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "56873002",
+    "CodeMeaning": "Sternum",
+    "BodyPartExamined": "STERNUM",
+    "SNOMED-RT ID (Retired)": "T-11210",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "69695003",
+    "CodeMeaning": "Stomach",
+    "BodyPartExamined": "STOMACH",
+    "SNOMED-RT ID (Retired)": "T-57000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "36765005",
+    "CodeMeaning": "Subclavian artery",
+    "BodyPartExamined": "SUBCLAVIANA",
+    "SNOMED-RT ID (Retired)": "T-46100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "9454009",
+    "CodeMeaning": "Subclavian vein",
+    "BodyPartExamined": "SUBCLAVIANV",
+    "SNOMED-RT ID (Retired)": "T-48330",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "19695001",
+    "CodeMeaning": "Subcostal",
+    "BodyPartExamined": "SUBCOSTAL",
+    "SNOMED-RT ID (Retired)": "T-D4210",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "5713008",
+    "CodeMeaning": "Submandibular area",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D1603",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "54019009",
+    "CodeMeaning": "Submandibular gland",
+    "BodyPartExamined": "SUBMANDIBULAR",
+    "SNOMED-RT ID (Retired)": "T-61300",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "170887008",
+    "CodeMeaning": "Submental",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D161E",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "5076001",
+    "CodeMeaning": "Subxiphoid",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-D3213",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "181349008",
+    "CodeMeaning": "Superficial femoral artery",
+    "BodyPartExamined": "SFA",
+    "SNOMED-RT ID (Retired)": "T-47403",
+    "FMA Code Value": "323777",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "397364003",
+    "CodeMeaning": "Superficial femoral vein",
+    "BodyPartExamined": "SFV",
+    "SNOMED-RT ID (Retired)": "G-035A",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "15672000",
+    "CodeMeaning": "Superficial temporal artery",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-45270",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "43863001",
+    "CodeMeaning": "Superior left pulmonary vein",
+    "BodyPartExamined": "LSUPPULMONARYV",
+    "SNOMED-RT ID (Retired)": "T-48530",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "42258001",
+    "CodeMeaning": "Superior mesenteric artery",
+    "BodyPartExamined": "SMA",
+    "SNOMED-RT ID (Retired)": "T-46510",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "8629005",
+    "CodeMeaning": "Superior right pulmonary vein",
+    "BodyPartExamined": "RSUPPULMONARYV",
+    "SNOMED-RT ID (Retired)": "T-48510",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "72021004",
+    "CodeMeaning": "Superior thyroid artery",
+    "BodyPartExamined": "SUPTHYROIDA",
+    "SNOMED-RT ID (Retired)": "T-45210",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "48345005",
+    "CodeMeaning": "Superior vena cava",
+    "BodyPartExamined": "SVC",
+    "SNOMED-RT ID (Retired)": "T-48610",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "77621008",
+    "CodeMeaning": "Supraclavicular region of neck",
+    "BodyPartExamined": "SUPRACLAVICULAR",
+    "SNOMED-RT ID (Retired)": "T-D1620",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "11708003",
+    "CodeMeaning": "Suprapubic region",
+    "BodyPartExamined": "SUPRAPUBIC",
+    "SNOMED-RT ID (Retired)": "T-D4240",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "26493002",
+    "CodeMeaning": "Suprasternal notch",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-11218",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128589000",
+    "CodeMeaning": "Systemic collateral artery to lung",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-44007",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "128568009",
+    "CodeMeaning": "Systemic venous atrium",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-33516",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "27949001",
+    "CodeMeaning": "Tarsal joint",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-15770",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "53620006",
+    "CodeMeaning": "Temporomandibular joint",
+    "BodyPartExamined": "TMJ",
+    "SNOMED-RT ID (Retired)": "T-15290",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "40689003",
+    "CodeMeaning": "Testis",
+    "BodyPartExamined": "TESTIS",
+    "SNOMED-RT ID (Retired)": "T-94000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "42695009",
+    "CodeMeaning": "Thalamus",
+    "BodyPartExamined": "THALAMUS",
+    "SNOMED-RT ID (Retired)": "T-A4000",
+    "FMA Code Value": "62007",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "68367000",
+    "CodeMeaning": "Thigh",
+    "BodyPartExamined": "THIGH",
+    "SNOMED-RT ID (Retired)": "T-D9100",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "49841001",
+    "CodeMeaning": "Third ventricle",
+    "BodyPartExamined": "3RDVENTRICLE",
+    "SNOMED-RT ID (Retired)": "T-A1740",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "113262008",
+    "CodeMeaning": "Thoracic aorta",
+    "BodyPartExamined": "THORACICAORTA",
+    "SNOMED-RT ID (Retired)": "T-42070",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "122495006",
+    "CodeMeaning": "Thoracic spine",
+    "BodyPartExamined": "TSPINE",
+    "SNOMED-RT ID (Retired)": "T-11502",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "1217256009",
+    "CodeMeaning": "Thoraco-lumbar spine",
+    "BodyPartExamined": "TLSPINE",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "43799004",
+    "CodeMeaning": "Thorax",
+    "BodyPartExamined": "THORAX",
+    "SNOMED-RT ID (Retired)": "",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "76505004",
+    "CodeMeaning": "Thumb",
+    "BodyPartExamined": "THUMB",
+    "SNOMED-RT ID (Retired)": "T-D8810",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "9875009",
+    "CodeMeaning": "Thymus",
+    "BodyPartExamined": "THYMUS",
+    "SNOMED-RT ID (Retired)": "T-C8000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "69748006",
+    "CodeMeaning": "Thyroid",
+    "BodyPartExamined": "THYROID",
+    "SNOMED-RT ID (Retired)": "T-B6000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "12611008",
+    "CodeMeaning": "Tibia",
+    "BodyPartExamined": "TIBIA",
+    "SNOMED-RT ID (Retired)": "T-12740",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110536004",
+    "CodeMeaning": "Tibia and fibula",
+    "BodyPartExamined": "TIBIAFIBULA",
+    "SNOMED-RT ID (Retired)": "T-12701",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "29707007",
+    "CodeMeaning": "Toe",
+    "BodyPartExamined": "TOE",
+    "SNOMED-RT ID (Retired)": "T-D9800",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "21974007",
+    "CodeMeaning": "Tongue",
+    "BodyPartExamined": "TONGUE",
+    "SNOMED-RT ID (Retired)": "T-53000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "44567001",
+    "CodeMeaning": "Trachea",
+    "BodyPartExamined": "TRACHEA",
+    "SNOMED-RT ID (Retired)": "T-25000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110726009",
+    "CodeMeaning": "Trachea and bronchus",
+    "BodyPartExamined": "TRACHEABRONCHUS",
+    "SNOMED-RT ID (Retired)": "T-DD006",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "485005",
+    "CodeMeaning": "Transverse colon",
+    "BodyPartExamined": "TRANSVERSECOLON",
+    "SNOMED-RT ID (Retired)": "T-59440",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "61959006",
+    "CodeMeaning": "Truncus arteriosus communis",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "D4-31400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "57850000",
+    "CodeMeaning": "Truncus coeliacus",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-46400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "23416004",
+    "CodeMeaning": "Ulna",
+    "BodyPartExamined": "ULNA",
+    "SNOMED-RT ID (Retired)": "T-12430",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "44984001",
+    "CodeMeaning": "Ulnar artery",
+    "BodyPartExamined": "ULNARA",
+    "SNOMED-RT ID (Retired)": "T-47200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "50536004",
+    "CodeMeaning": "Umbilical artery",
+    "BodyPartExamined": "UMBILICALA",
+    "SNOMED-RT ID (Retired)": "T-F1810",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "90290004",
+    "CodeMeaning": "Umbilical region",
+    "BodyPartExamined": "UMBILICAL",
+    "SNOMED-RT ID (Retired)": "T-D4230",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "284639000",
+    "CodeMeaning": "Umbilical vein",
+    "BodyPartExamined": "UMBILICALV",
+    "SNOMED-RT ID (Retired)": "T-48832",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "40983000",
+    "CodeMeaning": "Upper arm",
+    "BodyPartExamined": "UPPERARM",
+    "SNOMED-RT ID (Retired)": "T-D8200",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "77831004",
+    "CodeMeaning": "Upper inner quadrant of breast",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-04002",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "53120007",
+    "CodeMeaning": "Upper limb",
+    "BodyPartExamined": "UPPERLIMB",
+    "SNOMED-RT ID (Retired)": "T-D8000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "76365002",
+    "CodeMeaning": "Upper outer quadrant of breast",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-04004",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "431491007",
+    "CodeMeaning": "Upper urinary tract",
+    "BodyPartExamined": "UPRURINARYTRACT",
+    "SNOMED-RT ID (Retired)": "T-7000B",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "87953007",
+    "CodeMeaning": "Ureter",
+    "BodyPartExamined": "URETER",
+    "SNOMED-RT ID (Retired)": "T-73000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "13648007",
+    "CodeMeaning": "Urethra",
+    "BodyPartExamined": "URETHRA",
+    "SNOMED-RT ID (Retired)": "T-75000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "35039007",
+    "CodeMeaning": "Uterus",
+    "BodyPartExamined": "UTERUS",
+    "SNOMED-RT ID (Retired)": "T-83000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110639002",
+    "CodeMeaning": "Uterus and fallopian tubes",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-88920",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "76784001",
+    "CodeMeaning": "Vagina",
+    "BodyPartExamined": "VAGINA",
+    "SNOMED-RT ID (Retired)": "T-82000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "118375008",
+    "CodeMeaning": "Vascular graft",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "A-04140",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "29092000",
+    "CodeMeaning": "Vein",
+    "BodyPartExamined": "VEIN",
+    "SNOMED-RT ID (Retired)": "T-48000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "34340008",
+    "CodeMeaning": "Venous network",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-48003",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "21814001",
+    "CodeMeaning": "Ventricle",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-32400",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "85234005",
+    "CodeMeaning": "Vertebral artery",
+    "BodyPartExamined": "VERTEBRALA",
+    "SNOMED-RT ID (Retired)": "T-45700",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "110517009",
+    "CodeMeaning": "Vertebral column and cranium",
+    "BodyPartExamined": "",
+    "SNOMED-RT ID (Retired)": "T-11011",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "45292006",
+    "CodeMeaning": "Vulva",
+    "BodyPartExamined": "VULVA",
+    "SNOMED-RT ID (Retired)": "T-81000",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "74670003",
+    "CodeMeaning": "Wrist joint",
+    "BodyPartExamined": "WRIST",
+    "SNOMED-RT ID (Retired)": "T-15460",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  },
+  {
+    "CodingSchemeDesignator": "SCT",
+    "CodeValue": "13881006",
+    "CodeMeaning": "Zygoma",
+    "BodyPartExamined": "ZYGOMA",
+    "SNOMED-RT ID (Retired)": "T-11166",
+    "FMA Code Value": "",
+    "UMLS Concept UniqueID": ""
+  }
+]

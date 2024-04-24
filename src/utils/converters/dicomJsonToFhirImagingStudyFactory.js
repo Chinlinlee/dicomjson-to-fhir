@@ -6,6 +6,7 @@ const { ImagingStudy, ImagingStudySeries, ImagingStudySeriesInstance } = require
 const dayjs = require("dayjs");
 const { SeriesLateralityFactory } = require("./seriesLateralityFactory");
 const { SeriesSpecimenFactory } = require("./seriesSpecimenFactory");
+const { SeriesBodySiteFactory } = require("./seriesBodySiteFactory");
 
 class DicomJsonToFhirImagingStudyFactory {
     /**
@@ -147,9 +148,7 @@ class DicomJsonToFhirImagingStudyFactory {
         series.numberOfInstances = DicomJson.getString(this.dicomJson, "00201209");
         if (series.numberOfInstances) series.numberOfInstances = parseInt(series.numberOfInstances);
 
-        series.bodySite = new Coding();
-        series.bodySite.display = DicomJson.getString(this.dicomJson, "00180015");
-
+        this.setSeriesBodySite(series);
         this.setSeriesStarted(series);
         this.setSeriesPerformer(series);
         this.setSeriesLaterality(series);
@@ -165,6 +164,14 @@ class DicomJsonToFhirImagingStudyFactory {
         let seriesStartedStr = `${seriesDate}${seriesTime}`;
 
         series.started = dayjs(seriesStartedStr).isValid() ? dayjs(seriesStartedStr, "YYYYMMDDhhmmss").toISOString() : undefined;
+    }
+
+    setSeriesBodySite(series) {
+        let bodySiteFactory = new SeriesBodySiteFactory(this.dicomJson);
+        let bodySite = bodySiteFactory.make();
+        if (bodySite) {
+            series.bodySite = bodySite;
+        }
     }
 
     setSeriesLaterality(series) {

@@ -171,6 +171,12 @@ module.exports.testData = {
             "CT1 abdomen"
         ]
     },
+    "0008103E": {
+        "vr": "LO",
+        "Value": [
+            "Series Description CT1 abdomen"
+        ]
+    },
     "00081040": {
         "vr": "LO",
         "Value": [
@@ -237,6 +243,12 @@ module.exports.testData = {
             "000Y"
         ]
     },
+    "00180015": {
+        "vr": "CS",
+        "Value": [
+            "ABDOMEN"
+        ]
+    },
     "0020000D": {
         "vr": "UI",
         "Value": [
@@ -277,6 +289,12 @@ module.exports.testData = {
         "vr": "IS",
         "Value": [
             "87"
+        ]
+    },
+    "00201209": {
+        "vr": "IS",
+        "Value": [
+            "1"
         ]
     },
     "00400275": {
